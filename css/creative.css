@@ -182,12 +182,13 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/unnamed.gif);
+    background: url(../img/movie/default.jpg) no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    z-index: -100;
 }
 
 header .header-content {
@@ -213,6 +214,14 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
+}
+
+header video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: auto;
+    z-index: -50;
 }
 
 @media(min-width:768px) {
@@ -241,6 +250,18 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
+
+    header video {
+        position: absolute;
+        margin-left: 0;
+        padding-left: 0;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -100;
+    }
+
 }
 
 .section-heading {
