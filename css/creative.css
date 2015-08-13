@@ -216,7 +216,7 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
-header video {
+header video#bgvid {
     position: absolute;
     left: 0;
     top: 0;
@@ -251,7 +251,7 @@ header video {
         font-size: 18px;
     }
 
-    header video {
+    header video#bgvid {
         position: absolute;
         margin-left: 0;
         padding-left: 0;
@@ -262,6 +262,10 @@ header video {
         z-index: -100;
     }
 
+}
+
+@media screen and (max-device-width: 800px) {
+    #bgvid { display: none; }
 }
 
 .section-heading {
