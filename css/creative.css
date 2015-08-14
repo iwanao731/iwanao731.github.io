@@ -191,6 +191,17 @@ header {
     z-index: -100;
 }
 
+header .video-pattern {
+    background: transparent url(../img/movie/pattern.png) repeat top left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
 header .header-content {
     position: relative;
     width: 100%;
