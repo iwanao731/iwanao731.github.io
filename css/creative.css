@@ -191,7 +191,7 @@ header {
     z-index: -100;
 }
 
-header .video-pattern {
+.video-pattern {
     background: transparent url(../img/movie/pattern.png) repeat top left;
     position: absolute;
     top: 0;
@@ -345,6 +345,11 @@ header video#bgvid {
 
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
+}
+
+.portfolio-frame {
+    display: inline-block;
+    box-shadow: 0px 0px 12px -4px rgba(0, 0, 0, 0.8);
 }
 
 @media(min-width:768px) {
@@ -513,3 +518,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
