@@ -4,11 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-@font-face {
-    font-family: 'custom';
-    src: url('../fonts/chogokubosogothic_5.ttf') format('truetype');
-}
-
 html,
 body {
     width: 100%;
@@ -16,7 +11,7 @@ body {
 }
 
 body {
-    font-family: 'custom', Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -48,8 +43,8 @@ h4,
 h5,
 h6,
 p {
-    font-family: 'custom', 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 100;
 }
 
 p {
