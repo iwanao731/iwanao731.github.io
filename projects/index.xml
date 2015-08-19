@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Digital Dance Group</title>
-    <link>http://iwanao731.github.io/projects/</link>
+    <link>http://research.mlabdance.com/projects/</link>
     <description>Recent content in Projects on Digital Dance Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Jul 2015 17:48:26 +0900</lastBuildDate>
-    <atom:link href="http://iwanao731.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://research.mlabdance.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Expressive Dance Motion Generation</title>
-      <link>http://iwanao731.github.io/projects/Expressive_Dance_Motion_Generation/</link>
+      <link>http://research.mlabdance.com/projects/Expressive_Dance_Motion_Generation/</link>
       <pubDate>Sun, 05 Jul 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://iwanao731.github.io/projects/Expressive_Dance_Motion_Generation/</guid>
+      <guid>http://research.mlabdance.com/projects/Expressive_Dance_Motion_Generation/</guid>
       <description>
 
 &lt;h2 id=&#34;segmentation-of-continuous-dance-motion:28898c2c586d726902e9974161dc9bab&#34;&gt;Segmentation of continuous Dance Motion&lt;/h2&gt;
@@ -58,10 +58,10 @@ ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.
     
     <item>
       <title>Physically-based Character Animation</title>
-      <link>http://iwanao731.github.io/projects/Physically_based_Character_Animation/</link>
+      <link>http://research.mlabdance.com/projects/Physically_based_Character_Animation/</link>
       <pubDate>Sun, 05 Jul 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://iwanao731.github.io/projects/Physically_based_Character_Animation/</guid>
+      <guid>http://research.mlabdance.com/projects/Physically_based_Character_Animation/</guid>
       <description>
 
 &lt;h2 id=&#34;segmentation-of-continuous-dance-motion:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Segmentation of continuous Dance Motion&lt;/h2&gt;
@@ -105,10 +105,10 @@ In Proceedings of the 10th International Conference on Computer Graphics Theory 
     
     <item>
       <title>Synthesis Facial Animation</title>
-      <link>http://iwanao731.github.io/projects/Synthesis_Facial_Animation/</link>
+      <link>http://research.mlabdance.com/projects/Synthesis_Facial_Animation/</link>
       <pubDate>Thu, 18 Jun 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://iwanao731.github.io/projects/Synthesis_Facial_Animation/</guid>
+      <guid>http://research.mlabdance.com/projects/Synthesis_Facial_Animation/</guid>
       <description>
 
 &lt;h2 id=&#34;synthesis-facial-animation:045fc8e824be06a31b090edd6e831e59&#34;&gt;Synthesis Facial Animation&lt;/h2&gt;
@@ -167,10 +167,10 @@ Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.
     
     <item>
       <title>Segmentation of continuous Dance Motion</title>
-      <link>http://iwanao731.github.io/projects/Segmentation_of_continuous_Dance_Motion/</link>
+      <link>http://research.mlabdance.com/projects/Segmentation_of_continuous_Dance_Motion/</link>
       <pubDate>Sat, 14 Mar 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://iwanao731.github.io/projects/Segmentation_of_continuous_Dance_Motion/</guid>
+      <guid>http://research.mlabdance.com/projects/Segmentation_of_continuous_Dance_Motion/</guid>
       <description>
 
 &lt;h2 id=&#34;segmentation-of-continuous-dance-motion:6ecb60fe69374065ef98b3ac6d54f120&#34;&gt;Segmentation of continuous Dance Motion&lt;/h2&gt;
