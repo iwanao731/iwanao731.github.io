@@ -74,8 +74,9 @@ Therefore, we propose a method that transforms arbitrary dance motion into more 
 &lt;p&gt;
 &lt;b&gt;&lt;i&gt;Expressive Dance Motion Generation&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
 Narumi Okada, Kazuki Okami, Tsukasa Fukusato, Naoya Iwamoto and Shigeo Morishima.&lt;br&gt;
-ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.
-&lt;a href=&#34;https://dl.dropboxusercontent.com/u/14947501/pdf/ExpressiveDanceMotionGeneration.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt;.pdf&lt;/a&gt;&lt;br&gt;
+ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Abstract&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada_poseter.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]
 &lt;/div&gt;
 </description>
     </item>
@@ -100,17 +101,7 @@ ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.
 
 &lt;hr /&gt;
 
-&lt;p&gt;Multi-layer Lattice Model for Real-Time Dynamic Character Deformation&lt;/p&gt;
-
-&lt;h3 id=&#34;demo:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Demo&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
-    &lt;div class=&#34;embedded-image-container&#34;&gt;
-        &lt;iframe width=&#34;650&#34; height=&#34;350&#34; src=&#34;https://www.youtube.com/embed/xzWOBEhk0RA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;Due to the recent advancement of computer graphics hardware and software algorithms, deformable characters have become more and more popular in real-time applications such as computer games. While there are mature techniques to generate primary deformation from skeletal movement, simulating realistic and stable secondary deformation such as jiggling of fats remains challenging. On one hand, traditional volumetric approaches such as the finite element method require higher computational cost and are infeasible for limited hardware such as game consoles. On the other hand, while shape matching based simulations can produce plausible deformation in real-time, they suffer from a stiffness problem in which particles either show unrealistic deformation due to high gains, or cannot catch up with the body movement. In this paper, we propose a unified multi-layer lattice model to simulate the primary and secondary deformation of skeleton-driven characters. The core idea is to voxelize the input character mesh into multiple anatomical layers including the bone, muscle, fat and skin. Primary deformation is applied on the bone voxels with lattice-based skinning. The movement of these voxels is propagated to other voxel layers using lattice shape matching simulation, creating a natural secondary deformation. Our multi-layer lattice framework can produce simulation quality comparable to those from other volumetric approaches with a significantly smaller computational cost. It is best to be applied in real-time applications such as console games or interactive animation creation.&lt;/p&gt;
 
 &lt;h3 id=&#34;publication:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Publication&lt;/h3&gt;
 
@@ -118,11 +109,62 @@ ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.
 
 &lt;div class=&#34;publication&#34;&gt;
 &lt;p&gt;
-&lt;b&gt;&lt;i&gt;Dance Motion Segmentation Method Based on Choreographic Primitives&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
-Narumi Okada, Naoya Iwamoto, Tsukasa Fukusato and Shigeo Morishima.&lt;br&gt;
-In Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP 2015), 47, Berlin, 2015.03.11-14. 
-&lt;a href=&#34;&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt;.pdf&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;ttp://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005304303320339&#34;&gt;DigitalLibrary&lt;/a&gt;
+&lt;b&gt;&lt;i&gt;Multi-layer Lattice Model for Real-Time Dynamic Character Animation&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Naoya Iwamoto，Hubert P.H. Shum, Longzhi Yang, and Shigeo Morishima&lt;br&gt;
+The 2015 Computer Graphics Forum (CGF)&lt;br&gt;
+Proceedings of the 2015 Pacific Conference on Computer Graphics and Applications (PG 2015), Beijing, 2015.10.07-09&lt;br&gt;
+[ &lt;a href=&#34;&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;キャラクターの身体構造を考慮した実時間肉揺れ生成手法&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+画像電子学会誌 第44巻, 第3号. 2015年7月&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;Material Parameter Editing System for Volumetric Simulation Models.&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Naoya Iwamoto and Shigeo Morishima.&lt;br&gt;
+In Proceedings of the ACM SIGGRAPH (SIGGRAPH 14), Anaheim, 2014.08.10-14&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2014_SIGGRAPH/Siggraph_iwamoto.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Abstract&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2014_SIGGRAPH/Siggraph_iwamoto_poster.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;多重レイヤーボリューム構造を考慮した キャラクターのリアルタイム肉揺れアニメーション生成手法.&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2015_VCGCAD/VCGCAD_iwamoto.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2015_VCGCAD/VCGCAD2015_iwamoto_poster.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;&#34;肉揺れ&#34;を実現するキャラクターアニメーションシステム&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+CEDEC, 横浜, 2014.09.02-04&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2014_CEDEC/nikyure_slides.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Slide&lt;/a&gt; ]&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;ボーンベースの弾性体キャラクターアニメーションシステムの研究&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+卓越シンポジウム2013. 2013.12&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;スケルトンベースの高速な弾性体キャラクターアニメーション手法&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+ビジュアルコンピューティングワークショップ2013. 画像電子学会誌,第42巻,第1号,「VCWS2013報告」p115-123(2013), 2013.11.&lt;br&gt;
+&lt;br&gt;
+
+
+
+
+
+
+
 &lt;/div&gt;
 </description>
     </item>
@@ -199,22 +241,23 @@ Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.
 &lt;p&gt;
 &lt;b&gt;&lt;i&gt;ダンスにシンクロした楽曲印象推定によるダンスキャラクタの表情アニメーション生成手法の提案&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
 朝比奈わかな, 岡田成美, 岩本尚也, 増田太郎, 福里司, 森島繁生&lt;br&gt;
-Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.
-&lt;a href=&#34;&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt;.pdf&lt;/a&gt;&lt;br&gt;
+Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/asahina/2015_VCGCAD/vc2015_asahina.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]&lt;br&gt;
 &lt;br&gt;
 
 &lt;p&gt;
 &lt;b&gt;&lt;i&gt;ダンスモーションに同期した表情自動合成のための楽曲印象解析手法の提案&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
 朝比奈わかな, 岡田成美, 岩本尚也, 増田太郎, 福里司, 森島繁生&lt;br&gt;
-情報処理学会 第77回全国大会, 2S-08, 京都, 2015.03.17-19.&lt;b&gt;学生奨励賞&lt;/b&gt;
-&lt;a href=&#34;&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt;.pdf&lt;/a&gt;&lt;br&gt;
+情報処理学会 第77回全国大会, 2S-08, 京都, 2015.03.17-19.&lt;b&gt;学生奨励賞&lt;/b&gt;&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/asahina/2014_Josho/Josho_asahina.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]&lt;br&gt;
+&lt;/div&gt;
 &lt;br&gt;
 
 &lt;p&gt;
 &lt;b&gt;&lt;i&gt;ダンスモーションにシンクロした音楽印象推定手法の提案とダンサーの表情自動合成への応用&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
 比奈わかな, 岡田成美, 岩本尚也, 増田太郎, 福里司, 森島繁生&lt;br&gt;
-情報処理学会 第106回音楽情報処理科学研究会, 23, 山梨, 2015.03.02-03.&lt;/b&gt;
-&lt;a href=&#34;&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt;.pdf&lt;/a&gt;&lt;br&gt;
+情報処理学会 第106回音楽情報処理科学研究会, 23, 山梨, 2015.03.02-03.&lt;/b&gt;&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/asahina/2015_SIGMUS/SIGMUS_asahina.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]&lt;br&gt;
 &lt;br&gt;
 
 &lt;/div&gt;
@@ -261,9 +304,10 @@ Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.
 &lt;p&gt;
 &lt;b&gt;&lt;i&gt;Dance Motion Segmentation Method Based on Choreographic Primitives&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
 Narumi Okada, Naoya Iwamoto, Tsukasa Fukusato and Shigeo Morishima.&lt;br&gt;
-In Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP 2015), 47, Berlin, 2015.03.11-14. 
-&lt;a href=&#34;&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt;.pdf&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;ttp://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005304303320339&#34;&gt;DigitalLibrary&lt;/a&gt;
+In Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP 2015), 47, Berlin, 2015.03.11-14. &lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2015_GRAPP/GRAPP_okada.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2015_GRAPP/GRAPP_okada_poster.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]
+&lt;a href=&#34;http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005304303320339&#34;&gt;DigitalLibrary&lt;/a&gt;
 &lt;/div&gt;
 </description>
     </item>
