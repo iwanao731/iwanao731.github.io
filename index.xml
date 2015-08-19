@@ -6,7 +6,32 @@
     <description>Recent content on Digital Dance Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 28 Dec 2014 17:48:26 +0900</lastBuildDate>
     <atom:link href="http://iwanao731.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NHK Eテレ「テクネ 映像の教室」</title>
+      <link>http://iwanao731.github.io/news/2014-12-28-techne/</link>
+      <pubDate>Sun, 28 Dec 2014 17:48:26 +0900</pubDate>
+      
+      <guid>http://iwanao731.github.io/news/2014-12-28-techne/</guid>
+      <description>
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;img src=&#34;../../img/news/0.jpg&#34; alt=&#34;&#34; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;nhk-eテレ-テクネ-映像の教室:f22e87e074efba8736ed264d06804e46&#34;&gt;NHK Eテレ「テクネ 映像の教室」&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;NHK Eテレ「テクネ 映像の教室」にて，岩本がダンサーのジェスチャー認識と弾性体シミュレーションプログラムを開発しました．&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nhk.or.jp/bijutsu/techne/try/content.html#programming&#34;&gt;テクネ 映像の教室&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
