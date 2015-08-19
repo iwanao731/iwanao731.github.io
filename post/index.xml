@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Digital Dance Group</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Digital Dance Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Aug 2015 16:30:31 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/post/test/</link>
+      <pubDate>Tue, 18 Aug 2015 16:30:31 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugahoge</title>
+      <link>http://localhost:1313/post/hugahoge/</link>
+      <pubDate>Tue, 18 Aug 2015 16:17:45 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/hugahoge/</guid>
+      <description>&lt;p&gt;aaaaa&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

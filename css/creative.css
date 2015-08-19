@@ -78,6 +78,20 @@ aside {
     padding: 50px 0;
 }
 
+.contact-section {
+    padding: 100px 0 0 0;
+}
+
+.hogehoge-section {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.shared-section {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
 .no-padding {
     padding: 0;
 }
@@ -126,6 +140,30 @@ aside {
 }
 
 @media(min-width:768px) {
+    .article .navbar-default {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
+    .article .navbar-default .navbar-header .navbar-brand {
+        font-size: 14px;
+        color: #f05f40;
+    }
+
+    .article .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #eb3812;
+    }
+
+    .article .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: #222;
+    }
+
+    .article .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #f05f40;
+    }
+
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
@@ -519,3 +557,48 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+.article h1,h2,h3,h4,h5,h6 {
+    padding-top: 20px;
+    text-align: center; 
+}
+
+.article p {
+  color: #777;
+}
+
+.article .embedded-image-wrapper {
+    margin:0 auto;
+    max-width: 100%;
+    width: 650px;
+    box-shadow: 0px 0px 12px -6px rgba(0, 0, 0, 0.8);
+}
+
+.article .embedded-image-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.article .embedded-image-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.article .embedded-image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.article .publication p {
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+}
