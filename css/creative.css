@@ -24,6 +24,15 @@ hr.light {
     border-color: #fff;
 }
 
+hr.dot {
+    border: 0;
+    border-bottom: 1px dotted;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 40px;
+}
+
+
 a {
     color: #f05f40;
     -webkit-transition: all .35s;
@@ -53,6 +62,32 @@ p {
     line-height: 1.5;
 }
 
+
+h2 {
+    display: flex;
+    align-items: center;
+    text-align: center; /* for no-flexbox browsers */
+    padding-bottom: 40px;
+}
+
+h2:before,
+h2:after {
+    border-top: 1px dotted;
+    content: "";
+    display: inline; /* for IE */
+    flex-grow: 1;
+}
+
+h2:before {
+    margin-right: 0.5em;
+}
+
+h2:after {
+    margin-left: 0.5em;
+}
+
+
+
 .bg-primary {
     background-color: #f05f40;
 }
@@ -71,7 +106,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 aside {
@@ -79,7 +114,7 @@ aside {
 }
 
 .contact-section {
-    padding: 100px 0 0 0;
+    padding: 80px 0 0 0;
 }
 
 .hogehoge-section {
@@ -575,7 +610,7 @@ body {
 
 .article .embedded-image-container {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 53.84%;
     padding-top: 30px;
     height: 0;
     overflow: hidden;
@@ -601,4 +636,46 @@ body {
     margin-bottom: 4px;
     font-size: 16px;
     line-height: 1.5;
+}
+
+.fit-to-width {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.shadow {
+    box-shadow: 0px 0px 12px -4px rgba(0, 0, 0, 0.8);
+}
+
+.news-box {
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding:10px;
+    border:1px solid #e7e7e7;
+    background-color: #fff;
+}
+
+.project-box {
+    border:1px solid #e7e7e7;
+    background-color: #fff;
+}
+
+.blinking{
+    -webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
 }

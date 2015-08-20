@@ -24,7 +24,7 @@
 <link rel="icon" href="http://research.mlabdance.com/img/thumbnail.png" sizes="32x32" />
 <link rel="apple-touch-icon-precomposed" href="http://research.mlabdance.com/img/thumbnail.png">
 <meta name="msapplication-TileImage" content="http://research.mlabdance.com/img/thumbnail.png"/>
-<meta name="generator" content="Hugo 0.14" />
+<meta name="generator" content="Hugo 0.15-DEV" />
 <title>Digital Dance Group</title>
 <!-- Bootstrap Core CSS -->
 <link rel="stylesheet" href="http://research.mlabdance.com/css/bootstrap.min.css" type="text/css">
@@ -80,10 +80,10 @@
                 </li>
                 
                 <li>
-                    <a class="page-scroll" href="#news">News</a>
+                    <a class="page-scroll" href="#jp-news">News</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#projects">Projects</a>
+                    <a class="page-scroll" href="#jp-projects">Projects</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#people">People</a>
@@ -102,71 +102,86 @@
         <!-- HEADER -->
 <header>
     <div class="video-pattern">
-        <video src="../img/movie/opening.mp4" muted autoplay loop id="bgvid"></video>
+        <video src="../img/movie/opening.mp4" muted autoplay loop poster="../img/movie/0_frame.jpg" id="bgvid"></video>
         <video muted autoplay loop poster="" id="bgvid">
-            <source src="../img/movie/opening.mp4" type="video/mp4">
             <source src="../img/movie/opening.webm" type="video/webm">
+            <source src="../img/movie/opening.mp4" type="video/mp4">
         </video>
     </div>
     <div class="header-content">
         <div class="header-content-inner">
             <h1>Digital Dance Group</h1>
-            <hr>
             <p>supported by Morishima Lab. at Waseda University.</p>
             
+            <span class="blinking"><i class="fa fa-3x fa-arrow-circle-down"></i></span>
         </div>
     </div>
 </header>
 
         <!-- VISION -->
-<section class="bg-primary" id="vision">
-    <div class="container">
+<section class="bg-primary">
+    <div class="container" id="vision" >
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-10 col-md-8  col-xs-12 col-md-offset-2 col-lg-offset-1">
                 <h2 class="section-heading">Vision</h2>
-                <hr class="light">
-                <p class="text-faded">従来、楽曲のビジュアライゼーションシステムは、波形や周波数スペクトログラムを用いたものに留まり、楽曲の持つ印象を視覚的に表現する術を持たなかった。では、楽曲の印象を視覚化するものとは何か。私たちはその答えが” ダンス” にあるのではないかと考えている。ダンスとは，アーティストがその楽曲を理解し，身体動作で表現する試みの１つであり，リスナーがその楽曲を視覚的に理解する上でも重要な要素となる。そこで私たちは，楽曲の印象をダンスでビジュアル化することで楽曲をより深く理解できるのではないかと考えた。以上を踏まえ、私たちは楽曲の持つ特徴や印象にマッチした3Dキャラクターのダンスアニメーションを自動で生成するシステムを提案し，実装を行う。本プロジェクトは，従来にはなかった新しい音楽鑑賞のスタイルを提示し，リスナーが音楽をより楽しむと同時に、能動的に音楽を理解しようとするきっかけを生み出すものである．</p>
+                <div class="col-lg-8 col-md-4  col-xs-12 col-lg-offset-0 col-md-offset-2 ">
+                    <p class="text-faded">従来、楽曲のビジュアライゼーションシステムは、波形や周波数スペクトログラムを用いたものに留まり、楽曲の持つ印象を視覚的に表現する術を持たなかった。では、楽曲の印象を視覚化するものとは何か。私たちはその答えが” ダンス” にあるのではないかと考えている。ダンスとは，アーティストがその楽曲を理解し，身体動作で表現する試みの１つであり，リスナーがその楽曲を視覚的に理解する上でも重要な要素となる。そこで私たちは，楽曲の印象をダンスでビジュアル化することで楽曲をより深く理解できるのではないかと考えた。以上を踏まえ、私たちは楽曲の持つ特徴や印象にマッチした3Dキャラクターのダンスアニメーションを自動で生成するシステムを提案し，実装を行う。本プロジェクトは，従来にはなかった新しい音楽鑑賞のスタイルを提示し，リスナーが音楽をより楽しむと同時に、能動的に音楽を理解しようとするきっかけを生み出すものである．</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-8 col-lg-offset-0 col-md-offset-0 col-xs-offset-2" >
+                    <img class="fit-to-width shadow"  src="../img/vision.jpg"></img>
+                </div>
+            </div>
+            <div class="col-lg-8 col-xs-8 col-lg-offset-2 col-xs-offset-2 text-center">
+                <br>
+                <br>
+                <br>
                 <a href="#projects" class="btn btn-default btn-xl">See Projects</a>
+            </div>
+            <div class="col-lg-10 col-md-8  col-xs-12 col-md-offset-2 col-lg-offset-1">
             </div>
         </div>
     </div>
 </section>
 
         <!-- KEYWORDS -->
-<section id="keywords">
-    <div class="container">
+<section>
+    <div class="container" id="keywords">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-10 col-lg-offset-1">
                 <h2 class="section-heading">Keywords</h2>
-                <hr class="primary">
-                <p class="text-muted">本グループは森島研究室の中でも，特に身体の動きや感情表出に関する技術に注目し，プログラミングによる計算機の力と人の創造性を組み合わせたアイデア，研究を通じたあらゆる問題解決に挑戦していきます．</p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <p class="text-muted">本グループは森島研究室の中でも，特に身体の動きや感情表出に関する技術に注目し，プログラミングによる計算機の力と人の創造性を組み合わせたアイデア，研究を通じたあらゆる問題解決に挑戦していきます．</p>
+                </div>
             
             <div class="col-lg-3 col-xs-6 text-center">
+                    <br>
                     <i class="fa fa-4x fa-music wow bounceIn text-primary"></i>
-                    <h3>Synchronization between Music and Motion</h3>
+                    <br>
+                    <h4>Synchronization between Music and Motion</h4>
                     <p class="text-muted">音楽と動きのシンクロ</p>
             </div>
             
             <div class="col-lg-3 col-xs-6 text-center">
+                    <br>
                     <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary"></i>
-                    <h3>Music Structure and Feature Analysis</h3>
+                    <br>
+                    <h4>Music Structure and Feature Analysis</h4>
                     <p class="text-muted">楽曲構造・特徴量解析</p>
             </div>
             
             <div class="col-lg-3 col-xs-6 text-center">
+                    <br>
                     <i class="fa fa-4x fa-hand-o-right wow bounceIn text-primary"></i>
-                    <h3>Motion Analysis</h3>
+                    <br>
+                    <h4>Motion Analysis</h4>
                     <p class="text-muted">モーション解析</p>
             </div>
             
             <div class="col-lg-3 col-xs-6 text-center">
+                    <br>
                     <i class="fa fa-4x fa-heart wow bounceIn text-primary"></i>
-                    <h3>Emotion Analysis and Visualization</h3>
+                    <br>
+                    <h4>Emotion Analysis and Visualization</h4>
                     <p class="text-muted">感情分析, ビジュアライゼーション</p>
             </div>
             
@@ -175,116 +190,119 @@
 </section>
 
         <section class="bg-gray">
-    <div class="container" id = "news">
+    <div class="container" id = "jp-news">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-12 col-lg-offset-0">
                 <h2 class="section-heading">News</h2>
-                <hr class="primary">
-                <p class="text-muted">デジタルダンスグループの活動にまつわる最新情報をお知らせします. </p>
-            </div>
-        </div>
-    </div>
-    <div class="slick-carousel">
-        
-        <div class="col-lg-4 col-xs-6">
-            <a href="http://research.mlabdance.com/news/2015-07-31-app/" class="portfolio-box portfolio-link">
-            <img src="../img/news/1.jpg" class="img-responsive" alt="">
-            <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Jul 31, 2015
+                <p class="text-muted text-center">デジタルダンスグループの活動にまつわる最新情報をお知らせします. </p>
+                <div class="slick-carousel">
+                    
+                    <div class="col-lg-4 col-xs-6 no-padding">
+                        <div class="news-box text-muted">
+                        <a href="http://research.mlabdance.com/jp-news/2015-07-31-app/" class="portfolio-box portfolio-link">
+                        <img src="../img/news/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Jul 31, 2015
+                                    </div>
+                                    <div class="project-name">
+                                        第4回早稲田大学アプリケーションコンテスト
+                                    </div>
+                                </div>
                         </div>
-                        <div class="project-name">
-                            第4回早稲田大学アプリケーションコンテスト
+                        </a>
+                        <p class="small">Jul 31, 2015</p>
+                        <p>第4回早稲田大学アプリケーションコンテスト</p>
                         </div>
+                        <br>
+                        <br>
                     </div>
-            </div>
-            </a>
-        </div>
-        
-        <div class="col-lg-4 col-xs-6">
-            <a href="http://research.mlabdance.com/news/2015-06-28-gcad/" class="portfolio-box portfolio-link">
-            <img src="../img/news/2.jpg" class="img-responsive" alt="">
-            <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Jun 28, 2015
+                    
+                    <div class="col-lg-4 col-xs-6 no-padding">
+                        <div class="news-box text-muted">
+                        <a href="http://research.mlabdance.com/jp-news/2015-06-28-gcad/" class="portfolio-box portfolio-link">
+                        <img src="../img/news/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Jun 28, 2015
+                                    </div>
+                                    <div class="project-name">
+                                        Visual Computing / グラフィクスとCAD 合同シンポジウム 2015
+                                    </div>
+                                </div>
                         </div>
-                        <div class="project-name">
-                            Visual Computing / グラフィクスとCAD 合同シンポジウム 2015
+                        </a>
+                        <p class="small">Jun 28, 2015</p>
+                        <p>Visual Computing / グラフィクスとCAD 合同シンポジウム 2015</p>
                         </div>
+                        <br>
+                        <br>
                     </div>
-            </div>
-            </a>
-        </div>
-        
-        <div class="col-lg-4 col-xs-6">
-            <a href="http://research.mlabdance.com/news/2015-03-11-visigrapp/" class="portfolio-box portfolio-link">
-            <img src="../img/news/3.jpg" class="img-responsive" alt="">
-            <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Mar 11, 2015
+                    
+                    <div class="col-lg-4 col-xs-6 no-padding">
+                        <div class="news-box text-muted">
+                        <a href="http://research.mlabdance.com/jp-news/2015-03-11-visigrapp/" class="portfolio-box portfolio-link">
+                        <img src="../img/news/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Mar 11, 2015
+                                    </div>
+                                    <div class="project-name">
+                                        VISIGGRAPP 2015
+                                    </div>
+                                </div>
                         </div>
-                        <div class="project-name">
-                            VISIGGRAPP 2015
+                        </a>
+                        <p class="small">Mar 11, 2015</p>
+                        <p>VISIGGRAPP 2015</p>
                         </div>
+                        <br>
+                        <br>
                     </div>
-            </div>
-            </a>
-        </div>
-        
-        <div class="col-lg-4 col-xs-6">
-            <a href="http://research.mlabdance.com/news/2014-12-28-techne/" class="portfolio-box portfolio-link">
-            <img src="../img/news/0.jpg" class="img-responsive" alt="">
-            <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Dec 28, 2014
+                    
+                    <div class="col-lg-4 col-xs-6 no-padding">
+                        <div class="news-box text-muted">
+                        <a href="http://research.mlabdance.com/jp-news/2014-12-28-techne/" class="portfolio-box portfolio-link">
+                        <img src="../img/news/0.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Dec 28, 2014
+                                    </div>
+                                    <div class="project-name">
+                                        NHK Eテレ「テクネ 映像の教室」
+                                    </div>
+                                </div>
                         </div>
-                        <div class="project-name">
-                            NHK Eテレ「テクネ 映像の教室」
+                        </a>
+                        <p class="small">Dec 28, 2014</p>
+                        <p>NHK Eテレ「テクネ 映像の教室」</p>
                         </div>
+                        <br>
+                        <br>
                     </div>
+                    
+                </div>
             </div>
-            </a>
         </div>
-        
     </div>
 </div>
 </section>
 
-        <section id="projects">
-    <div class="container">
+        <section >
+    <div class="container" id="jp-projects">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-12 col-lg-offset-0 text-center">
                 <h2 class="section-heading">Projects</h2>
-                <hr class="primary">
-                <p class="text-muted">現在進行中のプロジェクトを中心に紹介します.</p>
-            </div>
-        </div>
-    </div>
-    <div class="slick-carousel">
-        
-        <div class="col-lg-4 col-xs-6">
-            <a href="http://research.mlabdance.com/projects/Expressive_Dance_Motion_Generation/" class="portfolio-box portfolio-link">
-            <img src="../img/projects/0.jpg" class="img-responsive" alt="">
-            <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Jul 5, 2015
-                        </div>
-                        <div class="project-name">
-                            Expressive Dance Motion Generation
-                        </div>
-                    </div>
-            </div>
-            </a>
-        </div>
-        
-        <div class="col-lg-4 col-xs-6">
-            <a href="http://research.mlabdance.com/projects/Physically_based_Character_Animation/" class="portfolio-box portfolio-link">
-            <img src="../img/projects/iwamoto.jpg" class="img-responsive" alt="">
+                <p class="text-muted text-center">デジタルダンスグループのプロジェクトの一部を紹介します.</p>
+
+    
+        <div class="col-lg-4 col-xs-6 project-box no-padding">
+            <a href="http://research.mlabdance.com/jp-projects/Physically_based_Character_Animation/" class="portfolio-box portfolio-link">
+            <img src="../img/projects/iwamoto.jpg" class="img-responsive fit-to-width" alt="">
             <div class="portfolio-box-caption">
                     <div class="portfolio-box-caption-content">
                         <div class="project-category text-faded">
@@ -298,9 +316,9 @@
             </a>
         </div>
         
-        <div class="col-lg-4 col-xs-6">
-            <a href="http://research.mlabdance.com/projects/Synthesis_Facial_Animation/" class="portfolio-box portfolio-link">
-            <img src="../img/projects/asahina.jpg" class="img-responsive" alt="">
+        <div class="col-lg-4 col-xs-6 project-box no-padding">
+            <a href="http://research.mlabdance.com/jp-projects/Synthesis_Facial_Animation/" class="portfolio-box portfolio-link">
+            <img src="../img/projects/asahina.jpg" class="img-responsive fit-to-width" alt="">
             <div class="portfolio-box-caption">
                     <div class="portfolio-box-caption-content">
                         <div class="project-category text-faded">
@@ -314,9 +332,9 @@
             </a>
         </div>
         
-        <div class="col-lg-4 col-xs-6">
-            <a href="http://research.mlabdance.com/projects/Segmentation_of_continuous_Dance_Motion/" class="portfolio-box portfolio-link">
-            <img src="../img/projects/okada.jpg" class="img-responsive" alt="">
+        <div class="col-lg-4 col-xs-6 project-box no-padding">
+            <a href="http://research.mlabdance.com/jp-projects/Segmentation_of_continuous_Dance_Motion/" class="portfolio-box portfolio-link">
+            <img src="../img/projects/okada.jpg" class="img-responsive fit-to-width" alt="">
             <div class="portfolio-box-caption">
                     <div class="portfolio-box-caption-content">
                         <div class="project-category text-faded">
@@ -330,17 +348,37 @@
             </a>
         </div>
         
+        <div class="col-lg-4 col-xs-6 project-box no-padding">
+            <a href="http://research.mlabdance.com/jp-projects/Expressive_Dance_Motion_Generation/" class="portfolio-box portfolio-link">
+            <img src="../img/projects/expressive.jpg" class="img-responsive fit-to-width" alt="">
+            <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                        <div class="project-category text-faded">
+                            Jul 21, 2013
+                        </div>
+                        <div class="project-name">
+                            Expressive Dance Motion Generation
+                        </div>
+                    </div>
+            </div>
+            </a>
+        </div>
+        
+
+
+            </div>
+        </div>
     </div>
+    <div class="slick-carousel">
+            </div>
 </section>
 
         <!-- KEYWORDS -->
-<section class="bg-primary" id="people">
-    <div class="container">
+<section class="bg-primary">
+    <div class="container" id="people">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-12 col-lg-offset-0 text-center">
                 <h2 class="section-heading">People</h2>
-                <hr class="light">
-                <p class="text-muted"></p>
             </div>
             <div class="col-lg-3 col-xs-4 text-center">
                 <h3 class="section-heading">Members</h2>
@@ -465,27 +503,66 @@
 </section>
 
         <!-- CONTACT -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                    <h2 class="section-heading">Share this page</h2>
+                <!-- CONTACT -->
+<div class="shared-section">
+    <ul class="social-button-syncer">
+    
+    <li class="sc-tw"><a data-url="http://research.mlabdance.com/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true">ツイート</a></li>
+
+    
+    <li class="sc-fb"><div class="fb-like" data-href="http://research.mlabdance.com/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+
+    
+    <li><div data-href="http://research.mlabdance.com/" class="g-plusone" data-size="tall"></div></li>
+
+    
+    <li><a href="http://b.hatena.ne.jp/entry/http://research.mlabdance.com/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
+
+    
+    <li><a data-save-url="http://research.mlabdance.com/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
+
+    
+    <div id="fb-root"></div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- CONTACT -->
 <div class="bg-gray contact-section" id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Contact Us</h2>
-                <hr class="primary">
-                <p class="text-muted">デジタルダンスグループは，人の動きを初めとする様々なモーション解析技術を用いた問題解決に日々取り組んでいます．何かコラボレーションできそうなきっかけがあればぜひお声かけお願い致します．</p>
-                <p class="text-muted">〒169-8555 東京都新宿区大久保3-4-1 55号館N棟406号室</p>
+            <div class="col-lg-10 col-lg-offset-1">
+                    <h2 class="section-heading">Contact Us</h2>
+                <div class="col-lg-10 col-lg-offset-1 col-xs-6">
+                    <p class="text-muted">デジタルダンスグループは，人の動きを初めとする様々なモーション解析技術を用いた問題解決に日々取り組んでいます．何かコラボレーションできそうなきっかけがあればぜひお声かけお願い致します．</p>
+                    <br>
+                </div>
+                <div class="col-lg-4 col-xs-6 text-center">
+                    <i class="fa fa-map-marker fa-3x wow bounceIn"></i>
+                    <p class="text-muted">〒169-8555 東京都新宿区大久保3-4-1 55号館N棟406号室</p>
+                </div>
+                <div class="col-lg-4 col-xs-6 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p class="text-muted">&#43;81-3-5286-3510</p>
+                </div>
+                <div class="col-lg-4 col-xs-6 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:iwanao731@gmail.com">iwanao731@gmail.com</a></p>
+                </div>
+                <br>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <br>
+                    <p class="text-muted small">※このサイトでは、<a href="http://piapro.jp/license/pcl/summary">ピアプロ・キャラクター・ライセンス</a>に基づいてクリプトン・フューチャー・メディア株式会社のキャラクター「初音ミク」を描いた作品を掲載しています。
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-lg-offset-3 col-xs-6 text-center">
-                <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                <p class="text-muted">&#43;81-3-5286-3510</p>
-            </div>
-            <div class="col-lg-3 col-xs-6 text-center">
-                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:iwanao731@gmail.com">iwanao731@gmail.com</a></p>
-            </div>
-            
-            
         </div>
     </div>
 </div>

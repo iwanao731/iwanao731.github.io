@@ -11,21 +11,21 @@
     
     <item>
       <title>第4回早稲田大学アプリケーションコンテスト</title>
-      <link>http://research.mlabdance.com/news/2015-07-31-app/</link>
+      <link>http://research.mlabdance.com/jp-news/2015-07-31-app/</link>
       <pubDate>Fri, 31 Jul 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://research.mlabdance.com/news/2015-07-31-app/</guid>
+      <guid>http://research.mlabdance.com/jp-news/2015-07-31-app/</guid>
       <description>
 
-&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+&lt;h2 id=&#34;第4回早稲田大学アプリケーションコンテスト:363f5cd9fd656ecdb5b042245c9fa8b0&#34;&gt;第4回早稲田大学アプリケーションコンテスト&lt;/h2&gt;
+
+&lt;p&gt;&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
     &lt;div class=&#34;embedded-image-container&#34;&gt;
         &lt;img src=&#34;../../img/news/1.jpg&#34; alt=&#34;&#34; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;h2 id=&#34;第4回早稲田大学アプリケーションコンテスト:363f5cd9fd656ecdb5b042245c9fa8b0&#34;&gt;第4回早稲田大学アプリケーションコンテスト&lt;/h2&gt;
-
-&lt;hr /&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;学内のアプリケーションコンテストにて，&amp;rdquo;森島研ダンス班&amp;rdquo;が優勝しました．&lt;/p&gt;
 
@@ -34,62 +34,14 @@
     </item>
     
     <item>
-      <title>Expressive Dance Motion Generation</title>
-      <link>http://research.mlabdance.com/projects/Expressive_Dance_Motion_Generation/</link>
-      <pubDate>Sun, 05 Jul 2015 17:48:26 +0900</pubDate>
-      
-      <guid>http://research.mlabdance.com/projects/Expressive_Dance_Motion_Generation/</guid>
-      <description>
-
-&lt;h2 id=&#34;segmentation-of-continuous-dance-motion:28898c2c586d726902e9974161dc9bab&#34;&gt;Segmentation of continuous Dance Motion&lt;/h2&gt;
-
-&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
-    &lt;div class=&#34;embedded-image-container&#34;&gt;
-        &lt;img src=&#34;../../img/projects/0.jpg&#34; alt=&#34;&#34; /&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;abstract:28898c2c586d726902e9974161dc9bab&#34;&gt;Abstract&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The power of expression such as accent in motion and movement of arms is an indispensable factor in dance performance because there is a large difference in appearance between natural dance and expressive motions. Needless to say, expressive dance motion makes a great impression on viewers. However, creating such a dance motion is challenging because most of the creators have little knowledge about dance performance. Therefore, there is a demand for a system that generates expressive dance motion with ease. Tsuruta et al. [2010] generated expressive dance motion by changing only the speed of input motion or altering joint angles. However, the power of expression was not evaluated with certainty, and the generated motion did not synchronize with music. Therefore, the generated motion did not always satisfy the viewers.
-Therefore, we propose a method that transforms arbitrary dance motion into more expressive motion by filtering in accent and power. Original dance motion is divided into segments and converted to expressive dance to keep the original tempo. The expression conversion rule is extracted by analyzing motion capture data from training dance motions that include neutral and expressive motions labeled by subjective assessment.&lt;/p&gt;
-
-&lt;h3 id=&#34;demo:28898c2c586d726902e9974161dc9bab&#34;&gt;Demo&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
-    &lt;div class=&#34;embedded-image-container&#34;&gt;
-        &lt;iframe width=&#34;650&#34; height=&#34;350&#34; src=&#34;https://www.youtube.com/embed/1zRfETCZaho&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;publication:28898c2c586d726902e9974161dc9bab&#34;&gt;Publication&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&#34;publication&#34;&gt;
-&lt;p&gt;
-&lt;b&gt;&lt;i&gt;Expressive Dance Motion Generation&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
-Narumi Okada, Kazuki Okami, Tsukasa Fukusato, Naoya Iwamoto and Shigeo Morishima.&lt;br&gt;
-ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.&lt;br&gt;
-[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Abstract&lt;/a&gt; ]
-[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada_poseter.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Physically-based Character Animation</title>
-      <link>http://research.mlabdance.com/projects/Physically_based_Character_Animation/</link>
+      <link>http://research.mlabdance.com/jp-projects/Physically_based_Character_Animation/</link>
       <pubDate>Sun, 05 Jul 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://research.mlabdance.com/projects/Physically_based_Character_Animation/</guid>
+      <guid>http://research.mlabdance.com/jp-projects/Physically_based_Character_Animation/</guid>
       <description>
 
-&lt;h2 id=&#34;segmentation-of-continuous-dance-motion:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Segmentation of continuous Dance Motion&lt;/h2&gt;
+&lt;h2 id=&#34;physically-based-character-animation:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Physically-based Character Animation&lt;/h2&gt;
 
 &lt;div class=&#34;embedded-image-wrapper&#34;&gt;
     &lt;div class=&#34;embedded-image-container&#34;&gt;
@@ -171,21 +123,21 @@ CEDEC, 横浜, 2014.09.02-04&lt;br&gt;
     
     <item>
       <title>Visual Computing / グラフィクスとCAD 合同シンポジウム 2015</title>
-      <link>http://research.mlabdance.com/news/2015-06-28-gcad/</link>
+      <link>http://research.mlabdance.com/jp-news/2015-06-28-gcad/</link>
       <pubDate>Sun, 28 Jun 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://research.mlabdance.com/news/2015-06-28-gcad/</guid>
+      <guid>http://research.mlabdance.com/jp-news/2015-06-28-gcad/</guid>
       <description>
 
-&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+&lt;h2 id=&#34;visual-computing-グラフィクスとcad-合同シンポジウム-2015:89281347f97e3243b7adda6a0cace020&#34;&gt;Visual Computing / グラフィクスとCAD 合同シンポジウム 2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
     &lt;div class=&#34;embedded-image-container&#34;&gt;
         &lt;img src=&#34;../../img/news/2.jpg&#34; alt=&#34;&#34; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;h2 id=&#34;visual-computing-グラフィクスとcad-合同シンポジウム-2015:89281347f97e3243b7adda6a0cace020&#34;&gt;Visual Computing / グラフィクスとCAD 合同シンポジウム 2015&lt;/h2&gt;
-
-&lt;hr /&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;姫路で開催されたVCGCADシンポジウム2015にて，楽曲の印象推定とダンスモーションを考慮した表情自動生成に関する発表を行ないました．&lt;/p&gt;
 
@@ -203,10 +155,10 @@ Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.
     
     <item>
       <title>Synthesis Facial Animation</title>
-      <link>http://research.mlabdance.com/projects/Synthesis_Facial_Animation/</link>
+      <link>http://research.mlabdance.com/jp-projects/Synthesis_Facial_Animation/</link>
       <pubDate>Thu, 18 Jun 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://research.mlabdance.com/projects/Synthesis_Facial_Animation/</guid>
+      <guid>http://research.mlabdance.com/jp-projects/Synthesis_Facial_Animation/</guid>
       <description>
 
 &lt;h2 id=&#34;synthesis-facial-animation:045fc8e824be06a31b090edd6e831e59&#34;&gt;Synthesis Facial Animation&lt;/h2&gt;
@@ -266,10 +218,10 @@ Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.&lt;br&
     
     <item>
       <title>Segmentation of continuous Dance Motion</title>
-      <link>http://research.mlabdance.com/projects/Segmentation_of_continuous_Dance_Motion/</link>
+      <link>http://research.mlabdance.com/jp-projects/Segmentation_of_continuous_Dance_Motion/</link>
       <pubDate>Sat, 14 Mar 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://research.mlabdance.com/projects/Segmentation_of_continuous_Dance_Motion/</guid>
+      <guid>http://research.mlabdance.com/jp-projects/Segmentation_of_continuous_Dance_Motion/</guid>
       <description>
 
 &lt;h2 id=&#34;segmentation-of-continuous-dance-motion:6ecb60fe69374065ef98b3ac6d54f120&#34;&gt;Segmentation of continuous Dance Motion&lt;/h2&gt;
@@ -314,21 +266,21 @@ In Proceedings of the 10th International Conference on Computer Graphics Theory 
     
     <item>
       <title>VISIGGRAPP 2015</title>
-      <link>http://research.mlabdance.com/news/2015-03-11-visigrapp/</link>
+      <link>http://research.mlabdance.com/jp-news/2015-03-11-visigrapp/</link>
       <pubDate>Wed, 11 Mar 2015 17:48:26 +0900</pubDate>
       
-      <guid>http://research.mlabdance.com/news/2015-03-11-visigrapp/</guid>
+      <guid>http://research.mlabdance.com/jp-news/2015-03-11-visigrapp/</guid>
       <description>
 
-&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+&lt;h2 id=&#34;visiggrapp-2015:1547087e5d89505a5761874437333caf&#34;&gt;VISIGGRAPP 2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
     &lt;div class=&#34;embedded-image-container&#34;&gt;
         &lt;img src=&#34;../../img/news/3.jpg&#34; alt=&#34;&#34; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;h2 id=&#34;visiggrapp-2015:1547087e5d89505a5761874437333caf&#34;&gt;VISIGGRAPP 2015&lt;/h2&gt;
-
-&lt;hr /&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;ベルリンで開催されたVISIGGRAPP 2015にて，ダンスモーションのセグメント分割に関する研究発表を行ないました．&lt;/p&gt;
 
@@ -348,25 +300,73 @@ In Proceedings of the 10th International Conference on Computer Graphics Theory 
     
     <item>
       <title>NHK Eテレ「テクネ 映像の教室」</title>
-      <link>http://research.mlabdance.com/news/2014-12-28-techne/</link>
+      <link>http://research.mlabdance.com/jp-news/2014-12-28-techne/</link>
       <pubDate>Sun, 28 Dec 2014 17:48:26 +0900</pubDate>
       
-      <guid>http://research.mlabdance.com/news/2014-12-28-techne/</guid>
+      <guid>http://research.mlabdance.com/jp-news/2014-12-28-techne/</guid>
       <description>
 
-&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+&lt;h2 id=&#34;nhk-eテレ-テクネ-映像の教室:f22e87e074efba8736ed264d06804e46&#34;&gt;NHK Eテレ「テクネ 映像の教室」&lt;/h2&gt;
+
+&lt;p&gt;&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
     &lt;div class=&#34;embedded-image-container&#34;&gt;
         &lt;img src=&#34;../../img/news/0.jpg&#34; alt=&#34;&#34; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;h2 id=&#34;nhk-eテレ-テクネ-映像の教室:f22e87e074efba8736ed264d06804e46&#34;&gt;NHK Eテレ「テクネ 映像の教室」&lt;/h2&gt;
-
-&lt;hr /&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;NHK Eテレ「テクネ 映像の教室」にて，岩本がダンサーのジェスチャー認識と弾性体シミュレーションプログラムを開発しました．&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.nhk.or.jp/bijutsu/techne/try/content.html#programming&#34;&gt;テクネ 映像の教室&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Expressive Dance Motion Generation</title>
+      <link>http://research.mlabdance.com/jp-projects/Expressive_Dance_Motion_Generation/</link>
+      <pubDate>Sun, 21 Jul 2013 17:48:26 +0900</pubDate>
+      
+      <guid>http://research.mlabdance.com/jp-projects/Expressive_Dance_Motion_Generation/</guid>
+      <description>
+
+&lt;h2 id=&#34;expressive-dance-motion-generation:28898c2c586d726902e9974161dc9bab&#34;&gt;Expressive Dance Motion Generation&lt;/h2&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;img src=&#34;../../img/projects/expressive.jpg&#34; alt=&#34;&#34; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;abstract:28898c2c586d726902e9974161dc9bab&#34;&gt;Abstract&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The power of expression such as accent in motion and movement of arms is an indispensable factor in dance performance because there is a large difference in appearance between natural dance and expressive motions. Needless to say, expressive dance motion makes a great impression on viewers. However, creating such a dance motion is challenging because most of the creators have little knowledge about dance performance. Therefore, there is a demand for a system that generates expressive dance motion with ease. Tsuruta et al. [2010] generated expressive dance motion by changing only the speed of input motion or altering joint angles. However, the power of expression was not evaluated with certainty, and the generated motion did not synchronize with music. Therefore, the generated motion did not always satisfy the viewers.
+Therefore, we propose a method that transforms arbitrary dance motion into more expressive motion by filtering in accent and power. Original dance motion is divided into segments and converted to expressive dance to keep the original tempo. The expression conversion rule is extracted by analyzing motion capture data from training dance motions that include neutral and expressive motions labeled by subjective assessment.&lt;/p&gt;
+
+&lt;h3 id=&#34;demo:28898c2c586d726902e9974161dc9bab&#34;&gt;Demo&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;iframe width=&#34;650&#34; height=&#34;350&#34; src=&#34;https://www.youtube.com/embed/1zRfETCZaho&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;publication:28898c2c586d726902e9974161dc9bab&#34;&gt;Publication&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;publication&#34;&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;Expressive Dance Motion Generation&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Narumi Okada, Kazuki Okami, Tsukasa Fukusato, Naoya Iwamoto and Shigeo Morishima.&lt;br&gt;
+ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Abstract&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada_poseter.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]
+&lt;/div&gt;
 </description>
     </item>
     
