@@ -31,6 +31,16 @@
 
 &lt;p&gt;Due to the recent advancement of computer graphics hardware and software algorithms, deformable characters have become more and more popular in real-time applications such as computer games. While there are mature techniques to generate primary deformation from skeletal movement, simulating realistic and stable secondary deformation such as jiggling of fats remains challenging. On one hand, traditional volumetric approaches such as the finite element method require higher computational cost and are infeasible for limited hardware such as game consoles. On the other hand, while shape matching based simulations can produce plausible deformation in real-time, they suffer from a stiffness problem in which particles either show unrealistic deformation due to high gains, or cannot catch up with the body movement. In this paper, we propose a unified multi-layer lattice model to simulate the primary and secondary deformation of skeleton-driven characters. The core idea is to voxelize the input character mesh into multiple anatomical layers including the bone, muscle, fat and skin. Primary deformation is applied on the bone voxels with lattice-based skinning. The movement of these voxels is propagated to other voxel layers using lattice shape matching simulation, creating a natural secondary deformation. Our multi-layer lattice framework can produce simulation quality comparable to those from other volumetric approaches with a significantly smaller computational cost. It is best to be applied in real-time applications such as console games or interactive animation creation.&lt;/p&gt;
 
+&lt;h3 id=&#34;demo:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Demo&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;iframe width=&#34;650&#34; height=&#34;350&#34; src=&#34;https://www.youtube.com/embed/xgx6M9o_RUs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;h3 id=&#34;publication:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Publication&lt;/h3&gt;
 
 &lt;hr /&gt;
@@ -41,7 +51,7 @@
 Naoya Iwamoto，Hubert P.H. Shum, Longzhi Yang, and Shigeo Morishima&lt;br&gt;
 The 2015 Computer Graphics Forum (CGF)&lt;br&gt;
 Proceedings of the 2015 Pacific Conference on Computer Graphics and Applications (PG 2015), Beijing, 2015.10.07-09&lt;br&gt;
-[ &lt;a href=&#34;&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2015_PG/PG2015_iwamoto.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]
 &lt;br&gt;
 &lt;br&gt;
 
