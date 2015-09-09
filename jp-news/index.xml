@@ -6,8 +6,76 @@
     <description>Recent content in Jp-news on Digital Dance Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2015 17:48:26 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2015 18:20:20 +0900</lastBuildDate>
     <atom:link href="http://research.mlabdance.com/jp-news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SIGGRAPH ASIA 2015</title>
+      <link>http://research.mlabdance.com/jp-news/2015-09-09-SIGGRAPHASIA2015/</link>
+      <pubDate>Wed, 09 Sep 2015 18:20:20 +0900</pubDate>
+      
+      <guid>http://research.mlabdance.com/jp-news/2015-09-09-SIGGRAPHASIA2015/</guid>
+      <description>
+
+&lt;h2 id=&#34;pacific-graphics-2015:0260d34040ebc6c4be6c88eaa3d26e1d&#34;&gt;Pacific Graphics 2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;img src=&#34;../../img/news/SIGGRAPHASIA2015.png&#34; alt=&#34;&#34; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;神戸で2015年11月2日～5日まで開催されるSIGGRAPH ASIA 2015にて，楽曲とダンスにマッチした表情の自動生成に関する研究発表を行います．&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;publication&#34;&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;Automatic Facial Animation Generation System of Dancing Characters Considering Emotion in Dance and Music&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Wakana Asahina, Narumi Okada, Naoya Iwamoto, Taro Masuda, Tsukasa Fukusato and Shigeo Morishima.
+In Proceedings of the ACM SIGGRAPH ASIA 2015, Kobe, 2015.11.02-05.
+&lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/asahina/2015_SIGGRAPHASIA/SIGASIA2015_asahina.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt;.pdf&lt;/a&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sa2015.siggraph.org/&#34;&gt;SIGGRAPH ASIA 2015&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pacific Graphics 2015</title>
+      <link>http://research.mlabdance.com/jp-news/2015-09-09-PG2015/</link>
+      <pubDate>Wed, 09 Sep 2015 18:12:12 +0900</pubDate>
+      
+      <guid>http://research.mlabdance.com/jp-news/2015-09-09-PG2015/</guid>
+      <description>
+
+&lt;h2 id=&#34;pacific-graphics-2015:d67bad83206b257cf49fd92036e74394&#34;&gt;Pacific Graphics 2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;img src=&#34;../../img/news/PG2015.png&#34; alt=&#34;&#34; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;北京で2015年10月6日～9日まで開催されるPacigic Graphics 2015にて，キャラクターの肉揺れに関する研究発表を行います．&lt;/p&gt;
+
+&lt;p&gt;本論文は，Computer Graphics Forum　Vol.34 Number 7に掲載予定です．&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;publication&#34;&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;Multi-layer Lattice Model for Real-Time Dynamic Character Animation&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Naoya Iwamoto，Hubert P.H. Shum, Longzhi Yang, and Shigeo Morishima&lt;br&gt;
+The 2015 Computer Graphics Forum (CGF) Proceedings of the 2015 Pacific Conference on Computer Graphics and Applications (PG 2015), Beijing, 2015.10.07-09
+&lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2015_PG/PG2015_iwamoto.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt;.pdf&lt;/a&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://cg.cs.tsinghua.edu.cn/pg2015/&#34;&gt;Pacific Graphics 2015&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>第4回早稲田大学アプリケーションコンテスト</title>
