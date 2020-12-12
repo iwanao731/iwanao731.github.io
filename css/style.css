@@ -234,6 +234,9 @@ header .right h2{
   font-size: 20px;
 }
 
+#activity ul {list-style-type: disc;}
+
+
 /* publications ------------------------*/
 #publications{
     width: 100%;
