@@ -1,0 +1,140 @@
+/* 1 Reset --------------------- */
+
+/* 2 Font ---------------------- */
+body{
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: normal;
+    color: #333;
+    font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+/* 3 Link ---------------------- */
+a:link, a:visited{
+    color:#0099cc;
+    text-decoration: underline;
+}
+a:hover, a:active{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+
+/* header ------------------------ */
+header{
+    width: 950px;
+    display: flex;
+    margin: 40px auto 50px;
+}
+header h1{
+    margin-right: 40px;
+}
+header p{
+    line-height: 1;
+}
+
+/* nav -------------------------- */
+nav{
+    width: 950px;
+    margin: 0 auto 40px;
+
+}
+nav ul{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    width: 150px;
+    /* background-color: #F00; */
+}
+nav li a:link, nav li a:visited{
+    display: block; /* インライン要素をブロックレベル要素に */
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+}
+nav li a:hover, nav li a:active{
+    color: #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+/* container ----------------------------- */
+#container{
+    width: 950px;
+    margin: 0 auto 40px;
+}
+#container h2{
+    margin-bottom: 40px;
+}
+
+#contents{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contents h3{
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+#whatsnew{
+    width: 310px;
+    /* background-color: #F00; */
+}
+
+#whatsnew dt{
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #666;
+}
+#whatsnew dd{
+    border-bottom: 1px solid #333;
+    padding-bottom: 16px;
+    margin-bottom: 8px;
+}
+#about{
+    width: 310px;
+    /* background-color: #0F0; */
+}
+#about figure{
+    margin-bottom: 16px;
+}
+#about p{
+    margin-bottom: 16px;
+}
+
+#todaysmenu{
+    width: 310px;
+    /* background-color: #00F; */
+}
+
+#menu-container{
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu01, #menu02{
+    width: 150px;
+}
+
+
+
+/* footer -------------------------------- */
+footer{
+    width: 950px;
+    margin: 0 auto 40px;
+    border-top: 1px solid #333;
+    padding-top: 40px;
+}
+
+footer p{
+    font-size: 11px;
+    text-align: right;
+}

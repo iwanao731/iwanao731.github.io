@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jp-Projects on Digital Dance Group</title>
+    <link>http://research.mlabdance.com/jp-projects/</link>
+    <description>Recent content in Jp-Projects on Digital Dance Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jul 2015 17:48:26 +0900</lastBuildDate>
+    <atom:link href="http://research.mlabdance.com/jp-projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Physically-based Character Animation</title>
+      <link>http://research.mlabdance.com/jp-projects/Physically_based_Character_Animation/</link>
+      <pubDate>Sun, 05 Jul 2015 17:48:26 +0900</pubDate>
+      
+      <guid>http://research.mlabdance.com/jp-projects/Physically_based_Character_Animation/</guid>
+      <description>
+
+&lt;h2 id=&#34;physically-based-character-animation:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Physically-based Character Animation&lt;/h2&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;img src=&#34;../../img/projects/iwamoto.jpg&#34; alt=&#34;&#34; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;abstract:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Abstract&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Due to the recent advancement of computer graphics hardware and software algorithms, deformable characters have become more and more popular in real-time applications such as computer games. While there are mature techniques to generate primary deformation from skeletal movement, simulating realistic and stable secondary deformation such as jiggling of fats remains challenging. On one hand, traditional volumetric approaches such as the finite element method require higher computational cost and are infeasible for limited hardware such as game consoles. On the other hand, while shape matching based simulations can produce plausible deformation in real-time, they suffer from a stiffness problem in which particles either show unrealistic deformation due to high gains, or cannot catch up with the body movement. In this paper, we propose a unified multi-layer lattice model to simulate the primary and secondary deformation of skeleton-driven characters. The core idea is to voxelize the input character mesh into multiple anatomical layers including the bone, muscle, fat and skin. Primary deformation is applied on the bone voxels with lattice-based skinning. The movement of these voxels is propagated to other voxel layers using lattice shape matching simulation, creating a natural secondary deformation. Our multi-layer lattice framework can produce simulation quality comparable to those from other volumetric approaches with a significantly smaller computational cost. It is best to be applied in real-time applications such as console games or interactive animation creation.&lt;/p&gt;
+
+&lt;h3 id=&#34;demo:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Demo&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;iframe width=&#34;650&#34; height=&#34;350&#34; src=&#34;https://www.youtube.com/embed/xgx6M9o_RUs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;publication:f35d1b58ab5b49c8c21a4d60340929e6&#34;&gt;Publication&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;publication&#34;&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;Multi-layer Lattice Model for Real-Time Dynamic Character Deformation&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Naoya Iwamoto，Hubert P.H. Shum, Longzhi Yang, and Shigeo Morishima&lt;br&gt;
+The 2015 Computer Graphics Forum (CGF)&lt;br&gt;
+Proceedings of the 2015 Pacific Conference on Computer Graphics and Applications (PG 2015), Beijing, 2015.10.07-09&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2015_PG/PG2015_iwamoto.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;キャラクターの身体構造を考慮した実時間肉揺れ生成手法&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+画像電子学会誌 第44巻, 第3号. 2015年7月&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;Material Parameter Editing System for Volumetric Simulation Models.&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Naoya Iwamoto and Shigeo Morishima.&lt;br&gt;
+In Proceedings of the ACM SIGGRAPH (SIGGRAPH 14), Anaheim, 2014.08.10-14&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2014_SIGGRAPH/Siggraph_iwamoto.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Abstract&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2014_SIGGRAPH/Siggraph_iwamoto_poster.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;多重レイヤーボリューム構造を考慮した キャラクターのリアルタイム肉揺れアニメーション生成手法.&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2015_VCGCAD/VCGCAD_iwamoto.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2015_VCGCAD/VCGCAD2015_iwamoto_poster.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;&#34;肉揺れ&#34;を実現するキャラクターアニメーションシステム&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+CEDEC, 横浜, 2014.09.02-04&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/iwamoto/2014_CEDEC/nikyure_slides.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Slide&lt;/a&gt; ]&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;ボーンベースの弾性体キャラクターアニメーションシステムの研究&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+卓越シンポジウム2013. 2013.12&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;スケルトンベースの高速な弾性体キャラクターアニメーション手法&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+岩本 尚也，森島 繁生&lt;br&gt;
+ビジュアルコンピューティングワークショップ2013. 画像電子学会誌,第42巻,第1号,「VCWS2013報告」p115-123(2013), 2013.11.&lt;br&gt;
+&lt;br&gt;
+
+
+
+
+
+
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Synthesis Facial Animation</title>
+      <link>http://research.mlabdance.com/jp-projects/Synthesis_Facial_Animation/</link>
+      <pubDate>Thu, 18 Jun 2015 17:48:26 +0900</pubDate>
+      
+      <guid>http://research.mlabdance.com/jp-projects/Synthesis_Facial_Animation/</guid>
+      <description>
+
+&lt;h2 id=&#34;synthesis-facial-animation:045fc8e824be06a31b090edd6e831e59&#34;&gt;Synthesis Facial Animation&lt;/h2&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;img src=&#34;../../img/projects/asahina.jpg&#34; alt=&#34;&#34; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;abstract:045fc8e824be06a31b090edd6e831e59&#34;&gt;Abstract&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;本研究は，キャラクタの表情を自動合成するための，ダンスモーションに同期した楽曲印象推定方法を    提案する．手順として，楽曲に関しては，音色やリズムに関する特徴量を，ダンスに関しては，ラバンの身体理論に基づいたモーション特徴    量を用いる．また，VA平面と呼ばれる感情平面を基に印象の軌跡を推定し，キャラクタの表情を合成した．本手法を用いて，キャラクタに精    細な表情を自動付与することで，簡易的に作品の印象を強調したダンス動画の生成を可能にした．&lt;/p&gt;
+
+&lt;h3 id=&#34;demo:045fc8e824be06a31b090edd6e831e59&#34;&gt;Demo&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;iframe width=&#34;650&#34; height=&#34;350&#34; src=&#34;https://www.youtube.com/embed/rREzw34CjXw&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;publication:045fc8e824be06a31b090edd6e831e59&#34;&gt;Publication&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;publication&#34;&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;Automatic Facial Animation Generation System of Dancing Characters Considering Emotion in Dance and Music&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Wakana Asahina, Narumi Okada, Naoya Iwamoto, Taro Masuda, Tsukasa Fukusato and Shigeo Morishima.&lt;br&gt;
+In Proceedings of the ACM SIGGRAPH ASIA 2015, Kobe, 2015.11.02-05.&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/asahina/2015_SIGGRAPHASIA/SIGASIA2015_asahina.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;ダンスにシンクロした楽曲印象推定によるダンスキャラクタの表情アニメーション生成手法の提案&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+朝比奈わかな, 岡田成美, 岩本尚也, 増田太郎, 福里司, 森島繁生&lt;br&gt;
+Visual Computing/GCAD合同シンポジウム2015, 姫路, 2015.06.28-30.&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/asahina/2015_VCGCAD/vc2015_asahina.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]&lt;br&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;ダンスモーションに同期した表情自動合成のための楽曲印象解析手法の提案&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+朝比奈わかな, 岡田成美, 岩本尚也, 増田太郎, 福里司, 森島繁生&lt;br&gt;
+情報処理学会 第77回全国大会, 2S-08, 京都, 2015.03.17-19.&lt;b&gt;学生奨励賞&lt;/b&gt;&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/asahina/2014_Josho/Josho_asahina.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]&lt;br&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;ダンスモーションにシンクロした音楽印象推定手法の提案とダンサーの表情自動合成への応用&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+比奈わかな, 岡田成美, 岩本尚也, 増田太郎, 福里司, 森島繁生&lt;br&gt;
+情報処理学会 第106回音楽情報処理科学研究会, 23, 山梨, 2015.03.02-03.&lt;/b&gt;&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/asahina/2015_SIGMUS/SIGMUS_asahina.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]&lt;br&gt;
+&lt;br&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Segmentation of continuous Dance Motion</title>
+      <link>http://research.mlabdance.com/jp-projects/Segmentation_of_continuous_Dance_Motion/</link>
+      <pubDate>Sat, 14 Mar 2015 17:48:26 +0900</pubDate>
+      
+      <guid>http://research.mlabdance.com/jp-projects/Segmentation_of_continuous_Dance_Motion/</guid>
+      <description>
+
+&lt;h2 id=&#34;segmentation-of-continuous-dance-motion:6ecb60fe69374065ef98b3ac6d54f120&#34;&gt;Segmentation of continuous Dance Motion&lt;/h2&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;img src=&#34;../../img/projects/okada.jpg&#34; alt=&#34;サムネイル&#34; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;abstract:6ecb60fe69374065ef98b3ac6d54f120&#34;&gt;Abstract&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Data-driven animation using a large human motion database enables the programing of various n    atural human motions. While the development of a motion capture system allows the acquisition of realistic human motion, segmen    ting the captured motion into a series of primitive motions for the construction of a motion database is necessary. Although mo    st segmentation methods have focused on periodic motion, e.g., walking and jogging, segmenting non-periodic and asymmetrical mo    tions such as dance performance, remains a challenging problem. In this paper, we present a specialized segmentation approach f    or human dance motion. Our approach consists of three steps based on the assumption that human dance motion is composed of cons    ecutive choreographic primitives. First, we perform an investigation based on dancer perception to determine segmentation compo    nents. After professional dancers have selected segmentation sequences, we use their selected sequences to define rules for the     segmentation of choreographic primitives. Finally, the accuracy of our approach is verified by a user-study, and we thereby sh    ow that our approach is superior to existing segmentation methods. Through three steps, we demonstrate automatic dance motion s    ynthesis based on the choreographic primitives obtained.&lt;/p&gt;
+
+&lt;h3 id=&#34;demo:6ecb60fe69374065ef98b3ac6d54f120&#34;&gt;Demo&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;iframe width=&#34;650&#34; height=&#34;350&#34; src=&#34;https://www.youtube.com/embed/xzWOBEhk0RA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;publication:6ecb60fe69374065ef98b3ac6d54f120&#34;&gt;Publication&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;publication&#34;&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;Dance Motion Segmentation Method Based on Choreographic Primitives&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Narumi Okada, Naoya Iwamoto, Tsukasa Fukusato and Shigeo Morishima.&lt;br&gt;
+In Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP 2015), 47, Berlin, 2015.03.11-14. &lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2015_GRAPP/GRAPP_okada.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Paper&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2015_GRAPP/GRAPP_okada_poster.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]
+&lt;a href=&#34;http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005304303320339&#34;&gt;DigitalLibrary&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Expressive Dance Motion Generation</title>
+      <link>http://research.mlabdance.com/jp-projects/Expressive_Dance_Motion_Generation/</link>
+      <pubDate>Sun, 21 Jul 2013 17:48:26 +0900</pubDate>
+      
+      <guid>http://research.mlabdance.com/jp-projects/Expressive_Dance_Motion_Generation/</guid>
+      <description>
+
+&lt;h2 id=&#34;expressive-dance-motion-generation:28898c2c586d726902e9974161dc9bab&#34;&gt;Expressive Dance Motion Generation&lt;/h2&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;img src=&#34;../../img/projects/expressive.jpg&#34; alt=&#34;&#34; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;abstract:28898c2c586d726902e9974161dc9bab&#34;&gt;Abstract&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The power of expression such as accent in motion and movement of arms is an indispensable factor in dance performance because there is a large difference in appearance between natural dance and expressive motions. Needless to say, expressive dance motion makes a great impression on viewers. However, creating such a dance motion is challenging because most of the creators have little knowledge about dance performance. Therefore, there is a demand for a system that generates expressive dance motion with ease. Tsuruta et al. [2010] generated expressive dance motion by changing only the speed of input motion or altering joint angles. However, the power of expression was not evaluated with certainty, and the generated motion did not synchronize with music. Therefore, the generated motion did not always satisfy the viewers.
+Therefore, we propose a method that transforms arbitrary dance motion into more expressive motion by filtering in accent and power. Original dance motion is divided into segments and converted to expressive dance to keep the original tempo. The expression conversion rule is extracted by analyzing motion capture data from training dance motions that include neutral and expressive motions labeled by subjective assessment.&lt;/p&gt;
+
+&lt;h3 id=&#34;demo:28898c2c586d726902e9974161dc9bab&#34;&gt;Demo&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;embedded-image-wrapper&#34;&gt;
+    &lt;div class=&#34;embedded-image-container&#34;&gt;
+        &lt;iframe width=&#34;650&#34; height=&#34;350&#34; src=&#34;https://www.youtube.com/embed/1zRfETCZaho&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;publication:28898c2c586d726902e9974161dc9bab&#34;&gt;Publication&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;publication&#34;&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;i&gt;Expressive Dance Motion Generation&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+Narumi Okada, Kazuki Okami, Tsukasa Fukusato, Naoya Iwamoto and Shigeo Morishima.&lt;br&gt;
+ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.&lt;br&gt;
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Abstract&lt;/a&gt; ]
+[ &lt;a href=&#34;https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada_poseter.pdf&#34;&gt;&lt;i class=&#34;fa fa-file-pdf-o text-primary&#34;&gt;&lt;/i&gt; Poster&lt;/a&gt; ]
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
