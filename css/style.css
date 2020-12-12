@@ -171,31 +171,31 @@ header .right h2{
 }
 
 /* projects ------------------------*/
-#projects{
+#doprojects{
   width: 100%;
   padding-top: 0px;
   padding-bottom: 10px;
 }
 
-#projects h2{
+#doprojects h2{
     font-size: 30px;
     padding: 5px 0px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.1rem;
 }
 
-#projects img {
+#doprojects img {
   width: 150px;
   height: 150px;
   object-fit: cover; /* この一行を追加するだけ！ */
 }
-#projects .container{
+#doprojects .container{
   margin: 20px 20px;
   width: 100%;
   display: flex;
 }
 
-#projects .left {
+#doprojects .left {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -203,7 +203,7 @@ header .right h2{
   background-color: #e6e6e6;
 }
 
-#projects .right {
+#doprojects .right {
     width: 80%;
     padding-top: 10px;
     padding-left: 20px;
