@@ -2,9 +2,10 @@
 
 /* Font ---------------------- */
 body{
-    width: 767px;
+    width: 900px;
     margin-right: auto;
     margin-left : auto;
+    margin-bottom: 50px;
     font-size: 14px;
     line-height: 1.6;
     font-weight: normal;
@@ -169,32 +170,32 @@ header .right h2{
     background: url(../img/works/digitaldancegroup.jpg) center center no-repeat;
 }
 
-/* publications ------------------------*/
-#publications{
+/* projects ------------------------*/
+#projects{
   width: 100%;
   padding-top: 0px;
   padding-bottom: 10px;
 }
 
-#publications h2{
+#projects h2{
     font-size: 30px;
     padding: 5px 0px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.1rem;
 }
 
-#publications img {
+#projects img {
   width: 150px;
   height: 150px;
   object-fit: cover; /* この一行を追加するだけ！ */
 }
-#publications .container{
+#projects .container{
   margin: 20px 20px;
   width: 100%;
   display: flex;
 }
 
-#publications .left {
+#projects .left {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -202,7 +203,7 @@ header .right h2{
   background-color: #e6e6e6;
 }
 
-#publications .right {
+#projects .right {
     width: 80%;
     padding-top: 10px;
     padding-left: 20px;
@@ -211,13 +212,56 @@ header .right h2{
     text-align: left;
 }
 
-/* #publications .container{
+/* activity ------------------------*/
+#activity{
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  
+#activity h2{
+    font-size: 30px;
+    padding: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+/* #projects .container{
   margin: 20px auto;
 } */
 
-#publications .container h4{
+#projects .container h4{
   font-size: 20px;
 }
+
+/* publications ------------------------*/
+#publications{
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  
+#publications h2{
+    font-size: 30px;
+    padding: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+#publications ul {list-style-type: disc;}
+
+#publications .font_bold {
+    font-weight:  bold;
+}
+
+#publications .font_italic {
+    font-style:  italic;
+}
+
+#publications .font_line {
+    text-decoration: underline;
+}
+
 /* news ------------------------*/
 #news{
     width: 100%;
