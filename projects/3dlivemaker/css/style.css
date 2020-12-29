@@ -1,0 +1,200 @@
+/* Reset --------------------- */
+
+/* Font ---------------------- */
+body{
+    width: 767px;
+    margin-right: auto;
+    margin-left : auto;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: normal;
+    color: #000;
+    font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Link ---------------------- */
+a:link, a:visited{
+    color:#000;
+    text-decoration: none
+}
+a:hover, a:active{
+    color: #ccc;
+    text-decoration: none;
+}
+
+/* Responsive ---------------------- */
+@media (max-width: 767px) {
+  /* 767px 以下がここを反映 */
+  header{
+    width: 100%;
+    /* background-color: #0F0; */
+  }
+  header h1{
+    text-align: left;
+    font-family: "Noto Serif JP";
+    font-size: 18px;
+  }
+  header .container{
+      margin-top: 100px;
+      width: 100%;
+      display: flex;
+  }
+  header .left{
+      background-color: #e6e6e6;
+  }
+  header .right{
+      background-color: #e6e6e6;
+  }
+  header .right h2{
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+}
+
+/* header ---------------------------- */
+header{
+    width: 100%;
+    font-size: 25px;
+}
+
+header h1{
+    margin-top: 25px;
+    font-size: 27px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+header img{
+    margin-top: 10px;
+    width: 100%;
+}
+
+header div{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* gallery --------------------------------- */
+#gallery{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+  }
+  
+  #gallery .column {
+    flex: 50%;
+    max-width: 45%;
+    padding: 0 10px;
+  }
+  
+  #gallery .column img {
+    margin-top: 8px;
+    vertical-align: center;
+    width: 100%;
+  }
+  
+/* works --------------------------------- */
+#works{
+    width: 100%;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+#works .youtube{
+    margin-top: 30px;
+}
+
+#works h2{
+    padding: 20px 0px;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+#works iframe{
+    width: 100%;
+}
+
+#works section{
+    height: 150px;
+    flex-grow: 1; /* 比率 */
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+#works h3{
+    font-size: 20px;
+}
+
+#works h3 a:link, a:visited{
+    color: gray;
+}
+
+#works img{
+    width: 100%;
+}
+
+/* activity ------------------------*/
+#activity{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  
+#activity h2{
+    font-size: 25px;
+    padding: 10px 20px;
+    padding-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+/* #projects .container{
+  margin: 20px auto;
+} */
+
+#activity .container h4{
+  font-size: 20px;
+}
+
+#activity ul {list-style-type: disc;}
+
+
+/* publications ------------------------*/
+#publications{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+#publications h2{
+    font-size: 25px;
+    padding: 20px 10px;
+    padding-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+#publications ul {list-style-type: disc;}
+
+#publications .font_bold {
+    font-weight:  bold;
+}
+
+#publications .font_italic {
+    font-style:  italic;
+}
+
+#publications .font_line {
+    text-decoration: underline;
+}
