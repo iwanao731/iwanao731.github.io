@@ -166,16 +166,11 @@ header div{
     text-align: center;
 }
 
-/* #projects .container{
-  margin: 20px auto;
-} */
-
 #activity .container h4{
   font-size: 20px;
 }
 
 #activity ul {list-style-type: disc;}
-
 
 /* publications ------------------------*/
 #publications{
@@ -206,3 +201,4 @@ header div{
 #publications .font_line {
     text-decoration: underline;
 }
+
