@@ -155,7 +155,7 @@ header div{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 0px;
-  }
+ }
   
 #activity h2{
     font-size: 25px;
@@ -172,6 +172,9 @@ header div{
 
 #activity ul {list-style-type: disc;}
 
+#activity table{
+    font-size: 140px;
+}
 /* publications ------------------------*/
 #publications{
     width: 100%;

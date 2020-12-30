@@ -269,6 +269,10 @@ header .right a:link{
 
 #activity ul {list-style-type: disc;}
 
+#activity table tr td{
+    padding-right: 10px;
+}
+  
 
 /* publications ------------------------*/
 #publications{
