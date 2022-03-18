@@ -213,6 +213,12 @@ header .right a:link{
 #DIGITALDANCEGROUP .works-bg{
     background: url(../img/works/digitaldancegroup.jpg) center center no-repeat;
 }
+#VOLUMETRICVIDEO .works-bg{
+    background: url(../img/private/volumetricvideo.png) center center no-repeat;
+}
+#VIRTUALFITTING .works-bg{
+    background: url(../img/private/virtualfitting.png) center center no-repeat;
+}
 
 /* projects ------------------------*/
 #doprojects{
