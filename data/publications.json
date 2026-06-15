@@ -1,0 +1,330 @@
+[
+  {
+    "lang": "en",
+    "authors": "Xun Su, Takumi Kitamura, Hikari Takehara, Naoya Iwamoto",
+    "title": "ShaveDog: High-Fidelity Dog Modeling via Synthetic Fur-Removal and Geometry-Aware Optimization",
+    "venue": "CVPR 2026 Workshop (CV4Animals)"
+  },
+  {
+    "lang": "en",
+    "authors": "Yang Yang, Yiyan Wang, Zheming Liu, Naoya Iwamoto",
+    "title": "MatPhys: Learning Material-Aware Physics Parameters for Deformable Object Simulation from Videos",
+    "venue": "arXiv (2026), 2026.05",
+    "links": [
+      { "label": "Paper", "url": "https://arxiv.org/abs/2605.19386" },
+      { "label": "Project Page", "url": "https://github.com/Yrainy0615/MatPhys" }
+    ]
+  },
+  {
+    "lang": "en",
+    "authors": "Yu Suzuki, Naoya Iwamoto, Shigeo Morishima",
+    "title": "Interactive Camerawork Authoring System for Free-Viewpoint Dance Contents",
+    "venue": "SIGGRAPH 2025, Poster, 2025.08. [ Student Research Competition (SRC), Undergraduate Division ]",
+    "links": [
+      { "label": "Paper", "url": "https://dl.acm.org/doi/10.1145/3721250.3743030" },
+      { "label": "Video", "url": "https://youtu.be/h8iu0c3ik84?si=ftDIK2Vb-pWHGEVq" },
+      { "label": "Project Page", "url": "https://morishima-lab.jp/publication/Interactive-Camerawork-Authoring-System-for-Free-Viewpoint-Dance-Contents_2025-8-14" },
+      { "label": "Award", "url": "https://s2025.siggraph.org/event/student-research-competition/" }
+    ]
+  },
+  {
+    "lang": "en",
+    "authors": "Haiyang Liu, Zihao Zhu, Giorgio Becherini, Yichen Peng, Mingyang Su, You Zhou, Naoya Iwamoto, Bo Zheng, Michael J. Black",
+    "title": "EMAGE: Towards Unified Holistic Co-Speech Gesture Generation via Expressive Masked Audio Gesture Modeling",
+    "venue": "CVPR 2024, 2024.01"
+  },
+  {
+    "lang": "en",
+    "authors": "Takumi Kitamura, Naoya Iwamoto, Diego Thomas, Hiroshi Kawasaki",
+    "title": "Two Step Approach for Animatavle Avatar",
+    "venue": "CGI 2023, 2023.09"
+  },
+  {
+    "lang": "en",
+    "authors": "Haiyang Liu, Zihao Zhu, Naoya Iwamoto, Yichen Peng, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng",
+    "title": "BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis",
+    "venue": "ECCV 2022, 2022.10"
+  },
+  {
+    "lang": "en",
+    "authors": "Haiyang Liu, Naoya Iwamoto, Zihao Zhu, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng",
+    "title": "DisCo: Disentangled Implicit Content and Rhythm Learning for Diverse Co-Speech Gesture Synthesis",
+    "venue": "ACM Multi Media 2022, 2022.10"
+  },
+  {
+    "lang": "en",
+    "authors": "Takumi Kitamura, Diego Thomas, Naoya Iwamoto, Hiroshi Kawasaki",
+    "title": "Real-time Animatable Avatars with a Rigged Human Outer-shell",
+    "venue": "MIRU2022 (short oral), 2022.06"
+  },
+  {
+    "lang": "en",
+    "authors": "Haiyang Liu, Zihao Zhu, Naoya Iwamoto, Yichen Peng, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng",
+    "title": "BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis",
+    "venue": "arXiv, 2022.03"
+  },
+  {
+    "lang": "ja",
+    "authors": "向井 智彦 (東京都立大学), 岩本 尚也",
+    "title": "二段階スキニング分解による頂点アニメーションの近似",
+    "venue": "VC2021 (long), オンライン, 2021.09.28-10.01"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 佐藤 浩之, Bo Zheng",
+    "title": "3D LIVE MAKER: 好きなキャラクタに命を吹き込むまで",
+    "venue": "VC2020, オンライン, 2020.12.02-04"
+  },
+  {
+    "lang": "en",
+    "authors": "Naoya Iwamoto, Hubert P. H. Shum, Wakana Asahina and Shigeo Morishima",
+    "title": "Automatic Sign Dance Synthesis from Gesture-based Sign Language",
+    "venue": "Motion, Interaction and Games(MIG) 2019, Newcastle, UK, 2019.10.28-30"
+  },
+  {
+    "lang": "en",
+    "authors": "Naoya Iwamoto, Takuya Kato(*joint first-author), Hubert P.H. Shum, Ryo Kakitsuka, Kenta Hara, Shigeo Morishima",
+    "title": "DanceDJ: A 3D Dance Animation Authoring System for Live Performance",
+    "venue": "ACE 2017, London (UK), 2017.12.14-12.16. [ Gold Award ]"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 加藤 卓哉(*共同主著)，原 健太，柿塚 亮，森島 繁生",
+    "title": "DanceDJ: ライブパフォーマンスを実現する実時間ダンス生成システム",
+    "venue": "WISS 2017, 2017.12"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也，柿塚 亮，朝比奈 わかな，加藤 卓哉，Hubert P.H. Shum，原 健太，岡田 成美，森島 繁生",
+    "title": "ダンスコンテンツ研究が拓くエンターテインメントイノベーション",
+    "venue": "CEDEC 2017, レギュラーセッション, 2017.9"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也，柿塚 亮，加藤 卓哉，Hubert P.H. Shum，原 健太，森島 繁生",
+    "title": "DanceDJ: ライブパフォーマンスのための実時間ダンス編集システムの提案",
+    "venue": "CEDEC 2017, インタラクティブセッション, 2017.9",
+    "links": [
+      {
+        "label": "Link",
+        "url": "https://www.wiss.org/WISS2017Proceedings/oral/02.pdf"
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "authors": "Ryo Kakitsuka, Kosetsu Tsukuda, Satoru Fukayama, Naoya Iwamoto, Masataka Goto, Shigeo Morishima",
+    "title": "Authoring System for Choreography Using Dance Motion Retrieval and Synthesis",
+    "venue": "The 30th International Conference on Computer Animation and Social Agents(CASA 2017), 2017.5"
+  },
+  {
+    "lang": "en",
+    "authors": "Naoya Iwamoto",
+    "title": "Physics-based Animation Beyond Capture Data",
+    "venue": "博士論文, 2017.2"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 加藤 卓哉，原 健太，柿塚 亮，森島 繁生",
+    "title": "DanceDJ: ライブパフォーマンスのためのダンス動作ミックスシステム",
+    "venue": "WISS2016, 2016.12",
+    "links": [
+      {
+        "label": "Link",
+        "url": "https://www.wiss.org/WISS2016Proceedings/demo/1-A02.pdf"
+      }
+    ]
+  },
+  {
+    "lang": "en",
+    "authors": "Ryo Kakitsuka, Kosetsu Tsukuda, Satoru Fukayama, Naoya Iwamoto, Masataka Goto, Shigeo Morishima",
+    "title": "A choreographic authoring system for character dance animation reflecting a user’s preference",
+    "venue": "Eurographics/ACM SIGGRAPH Symposium on Computer Animation (SCA) 2016, Zurich, 2016.7"
+  },
+  {
+    "lang": "en",
+    "authors": "Wakana Asahina, Naoya Iwamoto, Hubert P.H. Shum, Shigeo Morishima",
+    "title": "Automatic Dance Generation System Considering Sign Language Information",
+    "venue": "ACM SIGGRAPH 2016, Anaheim, 2016.7"
+  },
+  {
+    "lang": "ja",
+    "authors": "柿塚 亮, 岩本 尚也, 朝比奈 わかな, 森島 繁生",
+    "title": "好みを反映した3Dダンス制作のための振付編集手法",
+    "venue": "Visual Computing/GCAD 合同シンポジウム 2016. 早稲田大学, 2016.6"
+  },
+  {
+    "lang": "en",
+    "authors": "Naoya Iwamoto，Hubert P.H. Shum, Longzhi Yang, Shigeo Morishima",
+    "title": "Multi-layer Lattice Model for Real-Time Dynamic Character Deformation",
+    "venue": "Computer Graphics Forum(a.k.a. Pacific Graphics 2015), 2015.10"
+  },
+  {
+    "lang": "ja",
+    "authors": "朝比奈 わかな, 岡田 成美, 岩本 尚也, 増田 太郎, 福里 司, 森島 繁生",
+    "title": "楽曲印象に基づくダンスモーションに同期したダンスキャラクタの表情自動合成",
+    "venue": "第20回 日本顔学会大会(フォーラム顔学 2015). 日本顔学会論文誌, Vol.15, pp.124, 2015.9"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 森島 繁生",
+    "title": "キャラクターの身体構㐀を考慮した実時間肉揺れ生成手法",
+    "venue": "画像電子学会誌 第 44 巻,第 3 号, p502-511, 2015.7"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 森島 繁生",
+    "title": "多重レイヤーボリューム構造を考慮した キャラクターのリアルタイム肉揺れアニメーション生成手法",
+    "venue": "Visual Computing / グラフィクスと CAD 合同シンポジウム 2015, 2015.6"
+  },
+  {
+    "lang": "ja",
+    "authors": "朝比奈 わかな, 岡田 成美, 岩本 尚也, 増田 太郎, 福里 司, 森島 繁生",
+    "title": "ダンスにシンクロした楽曲印象推定によるダンスキャラクタの表情アニメーション生成手法の提案",
+    "venue": "Visual Computing / グラフィクスと CAD 合同シンポジウム 2015, 2015.6"
+  },
+  {
+    "lang": "en",
+    "authors": "Narumi Okada, Tsukasa Fukusato, Naoya Iwamoto, Shigeo Morishima",
+    "title": "Dance Motion Segmentation Method Based on Choreographic Primitives",
+    "venue": "GRAPP 2015, Short Paper, Berlin, 2015.3.11-14"
+  },
+  {
+    "lang": "ja",
+    "authors": "朝比奈 わかな, 岡田 成美, 岩本 尚也, 増田 太郎, 福里 司, 森島 繁生",
+    "title": "ダンスモーションに同期した表情自動合成のための楽曲印象解析手法の提案",
+    "venue": "情報処理学会 第77回全国大会, 2S-08, 京都, 2015.3"
+  },
+  {
+    "lang": "ja",
+    "authors": "朝比奈 わかな, 岡田 成美, 岩本 尚也, 増田 太郎, 福里 司, 森島 繁生",
+    "title": "ダンスモーションにシンクロした音楽印象推定手法の提案とダンサーの表情自動合成への応用",
+    "venue": "情報処理学会 第 106 回音楽情報処理科学研究会, 23, 山梨, 2015.3"
+  },
+  {
+    "lang": "ja",
+    "authors": "岡田 成美, 福里 司, 岩本 尚也, 森島 繁生",
+    "title": "振り付けの構成要素を考慮したダンスモーションのセグメンテーション手法の提案",
+    "venue": "GCAD研究会2014@名古屋, 2014.9月"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 森島 繁生",
+    "title": "\"肉揺れ\"を実現するキャラクターアニメーションシステム",
+    "venue": "CEDEC2014. 2014年9月"
+  },
+  {
+    "lang": "en",
+    "authors": "Kakuto Goto, Naoya Iwamoto, Shunsuke Saito, Shigeo Morishima",
+    "title": "The efficient and robust sticky viscoelastic material simulation",
+    "venue": "SIGGRAPH 2014, Vancouver, 2014.8"
+  },
+  {
+    "lang": "en",
+    "authors": "Naoya Iwamoto, Shigeo Morishima",
+    "title": "Material Parameter Editing System for Volumetric Simulation Models",
+    "venue": "ACM SIGGRAPH 2014, 10, 2014.7"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 森島 繁生",
+    "title": "ボーンベースの弾性体キャラクターアニメーションシステムの研究",
+    "venue": "卓越シンポジウム2013. 2013年12月"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 森島 繁生",
+    "title": "スケルトンベースの高速な弾性体キャラクターアニメーション手法",
+    "venue": "ビジュアルコンピューティングワークショップ2013. 画像電子学会誌,第42巻,第1号,「VCWS2013報告」p115-123(2013), 2013年11月"
+  },
+  {
+    "lang": "en",
+    "authors": "Narumi Okada, Kazuki Okami, Tsukasa Fukusato, Naoya Iwamoto, Shigeo Morishima",
+    "title": "Expressive Dance Motion Generation",
+    "venue": "ACM SIGGRAPH 2013, Poster, Anaheim, 2013.7.21-25"
+  },
+  {
+    "lang": "en",
+    "authors": "Kazuki Okami, Naoya Iwamoto, Akinobu Maejima, Shigeo Morishima",
+    "title": "Reflectance Estimation of Human Face from a Single Shot Image",
+    "venue": "ACM SIGGRAPH 2013, Poster, Anaheim, 2013.7.21-25"
+  },
+  {
+    "lang": "ja",
+    "authors": "岡見 和樹, 岩本 尚也, 前島 謙宣, 森島 繁生",
+    "title": "一枚顔画像を入力とした顔の反射特性推定",
+    "venue": "Visual Computing/GCAD 合同シンポジウム 2013. 2013.6"
+  },
+  {
+    "lang": "ja",
+    "authors": "岡田 成美, 岡見 和樹, 福里 司, 岩本 尚也, 森島 繁生",
+    "title": "ダンスモーションにおける表現のバリエーション生成",
+    "venue": "情報処理学会 第75回全国大会, 6ZB-6, 仙台, 2013.3"
+  },
+  {
+    "lang": "ja",
+    "authors": "福里 司, 岩本 尚也, 森島 繁生",
+    "title": "アニメ作品のコミック画像解析に基づく動画要約手法の提案",
+    "venue": "画像電子学会 Visual Computing ワークショップ 2012, 画像電子学会誌, Vol42, No.1, p.117, 2013.1"
+  },
+  {
+    "lang": "en",
+    "authors": "Tsukasa Fukusato, Naoya Iwamoto, Shoji Kunitomo, Hirofumi Suda, Shigeo Morishima",
+    "title": "Hair Motion Capturing from Multiple View Videos",
+    "venue": "ACM SIGGRAPH 2012, 55, Los Angeles, 2012.8"
+  },
+  {
+    "lang": "en",
+    "authors": "Shunsuke Saito, Ryusuke Sagawa, Naoya Iwamoto, Shigeo Morishima",
+    "title": "Cloth Parameter Estimation",
+    "venue": "SCA 2012, EPFL. Switzerland, 2012.7"
+  },
+  {
+    "lang": "ja",
+    "authors": "福里 司, 岩本 尚也, 國友 翔次, 須田 洋文, 森島 繁生",
+    "title": "ステレオカメラ画像の色相検出に基づくマーカレス頭髪モーションキャプチャ",
+    "venue": "Visual Computing/GCAD 合同シンポジウム 2012.東京, 2012.6"
+  },
+  {
+    "lang": "ja",
+    "authors": "岡見 和樹, 岩本 尚也, 國友 翔次, 須田 洋文, 森島 繁生",
+    "title": "動作の多様性を生成するデータドリブンな歩行動作変換",
+    "venue": "Visual Computing/GCAD 合同シンポジウム 2012.東京,2012.6"
+  },
+  {
+    "lang": "ja",
+    "authors": "福里 司, 岩本 尚也, 國友 翔次, 須田 洋文, 森島 繁生",
+    "title": "複数台のビデオ映像解析による頭髪モーションキャプチャ",
+    "venue": "電子情報通信学会 2012 総合大会講演論文集, ISSN1349-1377, 岡山, 2012.3"
+  },
+  {
+    "lang": "ja",
+    "authors": "福里 司, 岩本 尚也, 國友 翔次, 須田 洋文, 森島 繁生",
+    "title": "動画像解析に基づくリアルな頭髪運動再現",
+    "venue": "情報処理学会 グラフィックスとCAD研究会 第146回研究発表会, 2, 東京, 2012.2"
+  },
+  {
+    "lang": "en",
+    "authors": "Naoya Iwamoto, Ryusuke Sagawa, Shoji Kunitomo, Shigeo Morishima",
+    "title": "Estimating Fluid Simulation Parameters from Video",
+    "venue": "ACM SIGGRAPH 2011, 2011.7"
+  },
+  {
+    "lang": "en",
+    "authors": "Naoya Iwamoto, Ryusuke Sagawa, Shoji Kunitomo, Shigeo Morishima",
+    "title": "Estimating Fluid Simulation Parameter from Videos",
+    "venue": "ACM SIGGRAPH / Eurographics Symposium on Computer Animation (SCA), 2011.7"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 佐川 立昌，国友 翔次，森島 繁生",
+    "title": "動的な液面形状を考慮した流体シミュレーションパラメータ推定",
+    "venue": "Visual Computing / グラフィクスと CAD 合同シンポジウム 2011. 2011.6"
+  },
+  {
+    "lang": "ja",
+    "authors": "岩本 尚也, 佐川 立昌，国友 翔次，森島 繁生",
+    "title": "動的な液面形状を考慮した流体シミュレーションパラメータ推定",
+    "venue": "電子情報通信学会総合大会 2011. 2011.3"
+  }
+]

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Create Volumetric Video Without Owning a Kinect? | Naoya Iwamoto</title>
+    <meta name="description" content="Naoya Iwamoto shares tips from building an offline volumetric video (VV) pipeline without owning a Kinect — using the CMU Panoptic dataset, Open3D, Blender, and MeshLab.">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+    <!-- Navigation ---------------------------------------------------- -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="../../index.html" class="nav-brand">← Naoya&nbsp;Iwamoto</a>
+            <ul class="nav-links">
+                <li><a href="../../index.html#private">Private Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-hero">
+            <p class="article-eyebrow">Private Project · Volumetric Video</p>
+            <h1>How to Create Volumetric Video Without Owning a Kinect?</h1>
+            <p class="article-byline">By Naoya Iwamoto · Researcher in Computer Graphics</p>
+        </header>
+
+        <div class="article-body">
+            <p>Hi everyone, I’m Naoya Iwamoto, a researcher in computer graphics field. I’m interested in character animation technology; deformation, facial animation, motion synthesis and control.</p>
+
+            <p>Recently I’m focusing on “<a href="http://volumetric-video.com/what-is-volumetric-video/" target="_blank" rel="noopener"><em>Volumetric Video (VV)</em></a>” technology, which can be captured dynamic movement of the living object. From this year I’ve read several research papers and also had some experiments for making VV. In this article, I would like to share tips got from my experiment shown below <em>(Fig. 1)</em>.</p>
+
+            <div class="video-embed">
+                <iframe src="https://www.youtube.com/embed/oo7cOP9r_yQ" title="Fig. 1 — Volumetric video experiment" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <figcaption style="text-align:center;color:var(--muted);font-size:0.85rem;margin:-20px 0 32px;">Fig. 1. Result of my volumetric video experiment.</figcaption>
+
+            <h2>How to Start Volumetric Video?</h2>
+            <p>According to my sources, a system in volumetric video studio normally generates point cloud or mesh using around 100 synchronized DSLR cameras as same as photogrammetry setup. Even if those “<em>Multi-View Stereo (MVS)</em>” approach can get dense point cloud, it’s too expensive, right? Don’t worry. You can start from several depth sensors such as Azure Kinect, which can directly and independently get point cloud. It is a little bit noisy, but it can be reduced with post process.</p>
+
+            <figure>
+                <img src="../../img/private/volumetricvideo/fig2_kinect.jpg" alt="Microsoft Azure Kinect" loading="lazy">
+                <figcaption>Fig. 2. Microsoft Azure Kinect — Video.Golem.de</figcaption>
+            </figure>
+
+            <h2>Dataset using Multi-View Kinect</h2>
+            <p>First of all, I thought to use Azure Kinect for my experiment, but it was still expensive for me… (around 450 USD/Kinect). Additionally it requires 3 or 4 Kinect at least for capturing 360 degree VV. Then, I found “<a href="http://domedb.perception.cs.cmu.edu/ptclouddb.html" target="_blank" rel="noopener"><em>PanopticStudio 3D PointCloud Dataset</em></a>”, which is 3D point cloud dataset captured from 10 Kinect V2.</p>
+
+            <div class="video-embed">
+                <iframe src="https://www.youtube.com/embed/Wc7qIacYqjg" title="CMU Panoptic Studio dataset" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <p>However, unfortunately this dataset is distributed not as 3D point cloud but colored video and depth acquired from each camera, camera parameters (written about position, angle, focal length and distortion) and time stamp for camera synchronization. The point is that you need to run code in their GitHub repository for generating point cloud yourself with synchronizing images got from each Kinect. Furthermore their code for generating point cloud were written in Matlab, which requires a licence for users…, so I re-written them with Python with “<em>Open3D</em>” library (describe later). It’s free :)</p>
+
+            <div class="video-embed">
+                <iframe src="https://www.youtube.com/embed/mtJuWguOjJE" title="Point cloud generation with Python and Open3D" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <figcaption style="text-align:center;color:var(--muted);font-size:0.85rem;margin:-20px 0 32px;">Fig. 4. Point cloud exported from multi-view Kinect (.ply per frame).</figcaption>
+
+            <p>Finally I could export all point cloud acquired from multi-view Kinect as .ply format for each frame as shown in <em>Fig. 4</em>. A colored point cloud data was incredible large, so it would be more large for multiple frames. Therefore I also implemented a code to remove point cloud of the wall (dome) part based on a threshold for depth value on depth image. Eventually I could decrease point cloud into 25MB for each frame.</p>
+
+            <p>Making color point cloud was just a little difficult because the resolution of color and depth on Kinect was different. (Color: 1920×1080 (.jpg), depth: 512×424 (.png)). To pick-up color information, the point cloud generated from depth is necessary to be projected onto color image space. After picking-up color for each point, I re-projected on 3D space again. Honestly you can also ignore this process because we will apply texture mapping later.</p>
+
+            <h2>Visualization on Blender</h2>
+            <p>For visualization of point cloud, I used <em>Blender 2.82</em> with add-on “<a href="https://blenderartists.org/t/point-cloud-visualizer/684180" target="_blank" rel="noopener"><em>Point Cloud Visualizer</em></a>”, and it was very convenient to visualize colored point cloud sequences. The time loading point cloud sequences (110 frames in my case) were taken so long, and it may require large memory on your PC. In my case, it is <em>Windows 10 (64bit), 16GB, GeForce RTX2020</em>.</p>
+
+            <p>This “<em>offline</em>” process (mainly for data loading) requires to have patient for you. I’d like to think how to achieve in real-time when I’ve got multiple Kinect in near future :)</p>
+
+            <h2>3D Library for Meshing</h2>
+            <p>Generating point cloud and meshing can be achieved by using “<a href="http://www.open3d.org/" target="_blank" rel="noopener"><em>Open3D</em></a>”, which is 3D computer vision friendly library. I believe this might be the best choice to implement offline VV system for beginners. It was easy to acquire a mesh (.ply) from point cloud [<a href="http://www.open3d.org/docs/release/tutorial/Advanced/rgbd_integration.html" target="_blank" rel="noopener">sample</a>]. However the Open3D library has “OpenCV”-like axis (X-right, Y-down, Z-front), so please carefully use on “OpenGL” software <em>(Fig. 5)</em>.</p>
+
+            <figure>
+                <img src="../../img/private/volumetricvideo/fig5_open3d.png" alt="Open3D coordinate axis" loading="lazy">
+                <figcaption>Fig. 5. Open3D uses an OpenCV-like axis (X-right, Y-down, Z-front).</figcaption>
+            </figure>
+
+            <p>I visualized the mesh generated from the dataset with lighting on Blender in <em>Fig. 6</em>. When you use “<em>Truncated Sign Distance Function (TSDF)</em>” function in Open3D for meshing, you can choose voxel resolution parameter (I used <em>5.0</em> in <em>Fig. 6</em>). I’ll describe the detail later. The mesh for each frame was about less than 20MB.</p>
+
+            <div class="video-embed">
+                <iframe src="https://www.youtube.com/embed/GlFMHUBs4OM" title="Fig. 6 — Mesh rendered in Blender" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <figcaption style="text-align:center;color:var(--muted);font-size:0.85rem;margin:-20px 0 32px;">Fig. 6. Mesh generated via TSDF in Open3D, rendered with lighting in Blender.</figcaption>
+
+            <p>As a tips, Blender add-on “<a href="https://github.com/neverhood311/Stop-motion-OBJ" target="_blank" rel="noopener"><em>Stop-motion-OBJ</em></a>” was really convenient for loading continuous mesh (.ply or .obj) sequences even though it takes much time for loading. If you can remove floor vertices, it would be faster for loading. I also implemented floor removal function using <em>Blender Script</em>.</p>
+
+            <h2>3D Tool for Texture Mapping</h2>
+            <p>Texture mapping was the most difficult part for this experiment because there is no popular library and tools. However, fortunately I’ve found <a href="https://youtu.be/OJZRuIzHcVw" target="_blank" rel="noopener">texture mapping tutorial</a> using <em>MeshLab</em>. The system inputs are mesh, camera intrinsic/extrinsic parameters and color texture acquired from each camera. Because I can’t find much detail related to texture mapping process on MeshLab, I spent a time to automatically input a mesh, color images and camera parameter as batch process (because it’s necessary for applying all frames). Finally I achieved texture mapping (2K texture resolution of my setting) for all frames <em>(Fig. 7)</em> by a process found by touch…</p>
+
+            <ol>
+                <li>Synthesizing MeshLab scene file by self-developed Python code</li>
+                <li>Loading it using MeshLab script</li>
+                <li>Applying texture mapping function from MeshLab script</li>
+            </ol>
+
+            <div class="video-embed">
+                <iframe src="https://www.youtube.com/embed/dGb24tPS-w4" title="Fig. 7 — Texture mapping result" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <figcaption style="text-align:center;color:var(--muted);font-size:0.85rem;margin:-20px 0 32px;">Fig. 7. Texture mapping (2K) applied to all frames.</figcaption>
+
+            <h2>Trial for Quality Improvement</h2>
+            <p>To improve final visual quality based on texture mapping, TSDF parameter (mentioned at meshing part) is quite important. Through several trial of tuning TSDF parameter related to mesh resolution, I found that high resolution mesh occurred texture mapping artifact in some case like original point cloud has too much noise <em>(Fig. 8)</em>.</p>
+
+            <figure>
+                <img src="../../img/private/volumetricvideo/fig8_tsdf.png" alt="TSDF parameter experiment" loading="lazy">
+                <figcaption>Fig. 8. Parameter experiment for meshing using TSDF (Truncated Sign Distance Function) in Open3D.</figcaption>
+            </figure>
+
+            <p>Additionally, I’ve tried different type of meshing algorithm with using <a href="https://www.russian3dscanner.com/" target="_blank" rel="noopener"><em>Wrap3</em></a> for Retopology and MeshLab for poisson surface mesh <em>(Fig. 9)</em>. Poisson surface mesh seems better, but surface has been too smooth. It is still trade off between texture quality or shape quality in my trial.</p>
+
+            <figure>
+                <img src="../../img/private/volumetricvideo/fig9_meshing.png" alt="Comparison of meshing algorithms" loading="lazy">
+                <figcaption>Fig. 9. Comparison of meshing algorithm. Texture mapping process after meshing is same.</figcaption>
+            </figure>
+
+            <h2>Summary</h2>
+            <p>In this article, I broke down my VV making experiment into each process; direction, dataset, making point cloud, visualization, meshing, texturing and parameter trial. I believe this is the shortest way to develop “<em>offline</em>” VV system even though taking a time for loading…</p>
+
+            <p>Furthermore I still have some artifact for the textured result because of noisy depth. At least, those noise might be decreased by closing each Kinect position to target. Therefore I need to purchase several Kinect for my next experiment.</p>
+
+            <p>Additionally, for solving basic noise issue, it would be necessary to develop surface tracking system such as “<em>Embedded Deformation</em>” with “<em>Deformation Graph</em>” shown in <em>Fig. 10</em>. The technique can be decreased noise by accumulating point cloud acquired for each frame.</p>
+
+            <div class="video-embed">
+                <iframe src="https://www.youtube.com/embed/KeuGwhv6yN4?start=866" title="Fig. 10 — Embedded Deformation" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <figcaption style="text-align:center;color:var(--muted);font-size:0.85rem;margin:-20px 0 32px;">Fig. 10. Embedded Deformation with Deformation Graph for surface tracking.</figcaption>
+
+            <h2>What I Wanted To Do</h2>
+            <p>Volumetric video technology has high potential to make new experience, visual and life. Unfortunately current my experiment is still “offline”, and I can easily guess that it’s so hard work to make it for real-time because it requires GLSL knowledge and skills. Debug is also difficult… Now, I’ll still continue offline experiment to achieve studio quality. Even this, it might be possible to help for making offline contents such as music video or movie using VV technology with “<em>Head Mount Display (HMD)</em>” soon.</p>
+
+            <p>VV is one of the technology and just a way to achieve a purpose. I’m always thinking that an important thing is a story behind of a technology. The story is meaningful and emotional, and the technology should be new and impressive. The thought might be similar with “<a href="https://medium.com/volumetric-filmmaking/the-brief-history-of-volumetric-filmmaking-32b3569c6831" target="_blank" rel="noopener"><em>Volumetric Filmmaking</em></a>”. One of offline system “USC Light Stage” <em>(Fig. 11)</em> is also contributed to produce many contents with stories. That might be my current ideal.</p>
+
+            <figure>
+                <img src="../../img/private/volumetricvideo/fig11_lightstage.jpg" alt="Light Stage at USC" loading="lazy">
+                <figcaption>Fig. 11. Shot in Light Stage at USC.</figcaption>
+            </figure>
+
+            <p>Eventually, I might be proud if I can expand my own world by collaborating with many artists or creators to make new artworks. Thus I’d like to make meaningful and excited future through VV technology.</p>
+
+            <figure>
+                <img src="../../img/private/volumetricvideo/extra_result.png" alt="Textured volumetric video result" loading="lazy">
+            </figure>
+
+            <p><strong>Writer:</strong><br>
+            Naoya Iwamoto [<a href="https://www.instagram.com/iwanao731/" target="_blank" rel="noopener">Instagram</a>]</p>
+
+            <p><strong>Bio:</strong><br>
+            Researcher in Computer Graphics field. After I received a Ph.D. (engineering), I joined a smartphone company in 2017. Currently I develop new animation technology combined with Augmented Reality technology.</p>
+
+            <a class="article-back" href="../../index.html#private">← Back to Portfolio</a>
+        </div>
+    </article>
+</body>
+</html>

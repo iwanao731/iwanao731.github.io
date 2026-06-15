@@ -1,0 +1,113 @@
+[
+  {
+    "heading": "Award",
+    "items": [
+      {
+        "lang": "ja",
+        "text": "2020.11 14th FORUM8 DESIGN FESTIVAL 2020, フォーラムエイト賞 「一枚画像からのフォトリアリスティックな歌唱およびダンスキャラクタ自動生成」",
+        "url": "http://soatassoc.org/hagura?fbclid=IwAR3NJ4sKNmnmFWI02by9WZwpu1sF6Jl72Vf0oLvoBQbaGFIPZQm7-cLusfA"
+      },
+      {
+        "lang": "en",
+        "text": "2017.12 Gold Award ACE2017 DanceDJ: A 3D Dance Animation Authoring System for Live Performance"
+      },
+      {
+        "lang": "ja",
+        "text": "2016.07 早稲田大学アプリケーションコンテスト レコチョク賞受賞 「ダンスDJ -ダンスをMixする新しい感覚-」"
+      },
+      {
+        "lang": "ja",
+        "text": "2015.07 早稲田大学アプリケーションコンテスト 優勝 「Parrot -特別な耳で音楽を聴こう-」"
+      },
+      {
+        "lang": "ja",
+        "text": "2012.06 ビジュアルコンピューティング学会 VC賞受賞"
+      }
+    ]
+  },
+  {
+    "heading": "Patent",
+    "items": [
+      {
+        "lang": "en",
+        "text": "OBJECT MODELING AND MOVEMENT METHOD AND APPARATUS, AND DEVICE",
+        "url": "https://www.freepatentsonline.com/y2020/0349765.html"
+      }
+    ]
+  },
+  {
+    "heading": "Book",
+    "lang": "ja",
+    "items": [
+      {
+        "lang": "en",
+        "text": "2023.06 コンピュータビジョン最前線 Summer 2023 「フカヨミジェスチャー動作生成」",
+        "url": "https://www.kyoritsu-pub.co.jp/book/b10031222.html"
+      }
+    ]
+  },
+  {
+    "heading": "Funding",
+    "lang": "ja",
+    "items": [
+      {
+        "lang": "en",
+        "text": "2018.04 デジタルハリウッド東京本校 特待生第一種"
+      },
+      {
+        "lang": "en",
+        "text": "2014.12 経済産業省フロンティアメイカーズ育成事業採択 「立体ステンドグラス作成支援ツールの開発」"
+      }
+    ]
+  },
+  {
+    "heading": "Academic Service",
+    "items": [
+      {
+        "lang": "en",
+        "text": "CVPR'24, TVCG'22'23, PG'22, CGI'23..."
+      }
+    ]
+  },
+  {
+    "heading": "Committee",
+    "lang": "ja",
+    "items": [
+      {
+        "lang": "en",
+        "text": "Pacific Graphics 2022 運営委員 (2022)",
+        "url": "https://pg2022.org/"
+      },
+      {
+        "lang": "en",
+        "text": "VC2022 運営委員 (2022)",
+        "url": "http://visualcomputing.sakura.ne.jp/"
+      },
+      {
+        "lang": "en",
+        "text": "VR学会アート＆エンタテインメント研究委員会 委員 (2021)",
+        "url": "http://sigae.vrsj.org/pukiwiki/public.php"
+      },
+      {
+        "lang": "en",
+        "text": "VC2021 運営委員 (2021)",
+        "url": "https://cgvi.jp/vc2021/"
+      },
+      {
+        "lang": "en",
+        "text": "SIGDance 運営委員 (2020–現在)",
+        "url": "https://www.sigdance.site/"
+      },
+      {
+        "lang": "en",
+        "text": "情報処理学会 コンピュータグラフィックスとビジュアル情報学研究会 運営委員 (2019–現在)",
+        "url": "http://cgvi.jp/"
+      },
+      {
+        "lang": "en",
+        "text": "VC2019 プログラム委員 (2019)",
+        "url": "https://cgvi.jp/vc2019/"
+      }
+    ]
+  }
+]

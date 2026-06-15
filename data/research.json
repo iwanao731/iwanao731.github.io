@@ -1,0 +1,291 @@
+[
+  {
+    "image": "img/publications/shavedog.jpg",
+    "alt": "ShaveDog",
+    "title": "ShaveDog: High-Fidelity Dog Modeling via Synthetic Fur-Removal and Geometry-Aware Optimization",
+    "authors": "Xun Su, Takumi Kitamura, Hikari Takehara, Naoya Iwamoto",
+    "venue": "CVPR 2026 Workshop (CV4Animals)"
+  },
+  {
+    "image": "img/publications/matphys.png",
+    "alt": "MatPhys",
+    "url": "https://github.com/Yrainy0615/MatPhys",
+    "title": "MatPhys: Learning Material-Aware Physics Parameters for Deformable Object Simulation from Videos",
+    "authors": "Yang Yang, Yiyan Wang, Zheming Liu, Naoya Iwamoto",
+    "venue": "arXiv (2026)",
+    "links": [
+      { "label": "Paper", "url": "https://arxiv.org/abs/2605.19386" },
+      { "label": "Project Page", "url": "https://github.com/Yrainy0615/MatPhys" }
+    ]
+  },
+  {
+    "image": "img/publications/camerawork_authoring.png",
+    "alt": "Interactive Camerawork Authoring System",
+    "url": "https://morishima-lab.jp/publication/Interactive-Camerawork-Authoring-System-for-Free-Viewpoint-Dance-Contents_2025-8-14",
+    "title": "Interactive Camerawork Authoring System for Free-Viewpoint Dance Contents",
+    "authors": "Yu Suzuki, Naoya Iwamoto, Shigeo Morishima",
+    "venue": "SIGGRAPH 2025, Poster — Student Research Competition (SRC), Undergraduate Division",
+    "links": [
+      { "label": "Paper", "url": "https://dl.acm.org/doi/10.1145/3721250.3743030" },
+      { "label": "Video", "url": "https://youtu.be/h8iu0c3ik84?si=ftDIK2Vb-pWHGEVq" },
+      { "label": "Project Page", "url": "https://morishima-lab.jp/publication/Interactive-Camerawork-Authoring-System-for-Free-Viewpoint-Dance-Contents_2025-8-14" },
+      { "label": "Award", "url": "https://s2025.siggraph.org/event/student-research-competition/" }
+    ]
+  },
+  {
+    "image": "img/publications/EMAGE.png",
+    "alt": "EMAGE",
+    "title": "EMAGE: Towards Unified Holistic Co-Speech Gesture Generation via Expressive Masked Audio Gesture Modeling",
+    "authors": "Haiyang Liu, Zihao Zhu, Giorgio Becherini, Yichen Peng, Mingyang Su, You Zhou, Naoya Iwamoto, Bo Zheng, Michael J. Black",
+    "venue": "CVPR 2024",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2401.00374"
+      },
+      {
+        "label": "Video",
+        "url": "https://youtu.be/T0OYPvViFGE"
+      },
+      {
+        "label": "Project Page",
+        "url": "https://pantomatrix.github.io/EMAGE/"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/AvatarShell.png",
+    "alt": "Animatable Avatar",
+    "title": "Two Step Approach for Animatavle Avatar",
+    "authors": "Takumi Kitamura, Naoya Iwamoto, Diego Thomas, Hiroshi Kawasaki",
+    "venue": "CGI 2023",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-50072-5_39"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/diegothomas/Interactive-Animatable-Avatar"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/beat.png",
+    "alt": "BEAT",
+    "url": "https://pantomatrix.github.io/BEAT/",
+    "title": "BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis",
+    "authors": "Haiyang Liu, Zihao Zhu, Naoya Iwamoto, Yichen Peng, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng",
+    "venue": "ECCV 2022",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2203.05297"
+      },
+      {
+        "label": "Video",
+        "url": "https://youtu.be/cXs5c_UxnvY"
+      },
+      {
+        "label": "Project Page",
+        "url": "https://pantomatrix.github.io/BEAT/"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/disco.png",
+    "alt": "DisCo",
+    "url": "https://pantomatrix.github.io/DisCo/",
+    "title": "DisCo: Disentangled Implicit Content and Rhythm Learning for Diverse Co-Speech Gesture Synthesis",
+    "authors": "Haiyang Liu, Naoya Iwamoto, Zihao Zhu, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng",
+    "venue": "ACM Multi Media 2022",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3503161.3548400"
+      },
+      {
+        "label": "Project Page",
+        "url": "https://pantomatrix.github.io/DisCo/"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/sign_dance.jpg",
+    "alt": "Sign Dance",
+    "url": "projects/digitaldancegroup/jp-projects/SignDance/",
+    "title": "Automatic Sign Dance Synthesis from Gesture-based Sign Language",
+    "authors": "Naoya Iwamoto, Hubert P. H. Shum, Wakana Asahina and Shigeo Morishima",
+    "venue": "Motion, Interaction and Games (MIG) 2019, Newcastle, UK, 2019.10.28-30",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "http://hubertshum.com/info/publications/mig2019dance/files/mig2019dance.pdf"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=D6D1x0ufZis"
+      },
+      {
+        "label": "Project Page",
+        "url": "projects/digitaldancegroup/jp-projects/SignDance/"
+      },
+      {
+        "label": "Bibtex",
+        "url": "projects/digitaldancegroup/jp-projects/SignDance/signdance_bibtex.html"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/dancedj_2.jpg",
+    "alt": "DanceDJ",
+    "url": "projects/digitaldancegroup/jp-projects/Dance_DJ/",
+    "title": "DanceDJ: A 3D Dance Animation Authoring System for Live Performance",
+    "authors": "Naoya Iwamoto, Takuya Kato (*joint first-author), Hubert P.H. Shum, Ryo Kakitsuka, Kenta Hara, Shigeo Morishima",
+    "venue": "ACE2017, London (UK), 2017.12.14-12.16. [ Gold Award ]",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "projects/digitaldancegroup/jp-projects/Dance_DJ/DanceDJ_ACE2017.pdf"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=6PI3tXIOPsE&feature=youtu.be"
+      },
+      {
+        "label": "Project Page",
+        "url": "projects/digitaldancegroup/jp-projects/Dance_DJ/"
+      },
+      {
+        "label": "Bibtex",
+        "url": "projects/digitaldancegroup/jp-projects/Dance_DJ/dancedj_bibtex.html"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/choreographautor_.jpg",
+    "alt": "Choreographic Authoring",
+    "url": "projects/digitaldancegroup/jp-projects/Choreographic_Authoring/",
+    "title": "Authoring System for Choreography Using Dance Motion Retrieval and Synthesis",
+    "authors": "Ryo Kakitsuka, Kosetsu Tsukuda, Satoru Fukayama, Naoya Iwamoto, Masataka Goto, Shigeo Morishima",
+    "venue": "CASA 2017 — Full Paper, Seoul, South Korea, 2017.5.22-24.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.dropboxusercontent.com/s/thhssu0rtucrnjf/casa2017_kakitsuka.pdf?dl=0"
+      },
+      {
+        "label": "Video",
+        "url": "https://youtu.be/MAmZyeG3BsU"
+      },
+      {
+        "label": "Project Page",
+        "url": "projects/digitaldancegroup/jp-projects/Choreographic_Authoring/"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/autoface.jpg",
+    "alt": "Facial Animation",
+    "url": "projects/digitaldancegroup/jp-projects/Synthesis_Facial_Animation/",
+    "title": "Automatic Facial Animation Generation System of Dancing Characters Considering Emotion in Dance and Music",
+    "authors": "Wakana Asahina, Narumi Okada, Naoya Iwamoto, Taro Masuda, Tsukasa Fukusato and Shigeo Morishima.",
+    "venue": "In Proceedings of the ACM SIGGRAPH ASIA 2015, Kobe, 2015.11.02-05.",
+    "links": [
+      {
+        "label": "Abstract",
+        "url": "https://dl.dropboxusercontent.com/s/8kg6o1ciawamco3/SIGASIA2015_asahina.pdf?dl=0"
+      },
+      {
+        "label": "Video",
+        "url": "https://youtu.be/rREzw34CjXw"
+      },
+      {
+        "label": "Poster",
+        "url": "https://dl.dropboxusercontent.com/s/8kg6o1ciawamco3/SIGASIA2015_asahina.pdf?dl=0"
+      },
+      {
+        "label": "Project Page (JP)",
+        "url": "projects/digitaldancegroup/jp-projects/Synthesis_Facial_Animation/"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/multilayerlattice.jpg",
+    "alt": "Multi-layer Lattice",
+    "url": "projects/digitaldancegroup/jp-projects/Physically_based_Character_Animation/",
+    "title": "Multi-layer Lattice Model for Real-Time Dynamic Character Deformation",
+    "authors": "Naoya Iwamoto, Hubert P.H. Shum, Longzhi Yang, and Shigeo Morishima",
+    "venue": "Computer Graphics Forum (a.k.a. Pacific Graphics 2015)",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "http://hubertshum.com/info/publications/pg2015/files/pg2015.pdf"
+      },
+      {
+        "label": "Video",
+        "url": "https://youtu.be/xgx6M9o_RUs"
+      },
+      {
+        "label": "Project Page (JP)",
+        "url": "projects/digitaldancegroup/jp-projects/Physically_based_Character_Animation/"
+      },
+      {
+        "label": "Digital Library",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.12749"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/dancesegment.jpg",
+    "alt": "Dance Segmentation",
+    "url": "projects/digitaldancegroup/jp-projects/Segmentation_of_continuous_Dance_Motion/",
+    "title": "Dance Motion Segmentation Method Based on Choreographic Primitives",
+    "authors": "Narumi Okada, Naoya Iwamoto, Tsukasa Fukusato and Shigeo Morishima",
+    "venue": "In Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP 2015), 47, Berlin, 2015.03.11-14.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.dropboxusercontent.com/s/uwuecio78g4b3sy/GRAPP_okada.pdf?dl=0"
+      },
+      {
+        "label": "Video",
+        "url": "https://youtu.be/xzWOBEhk0RA"
+      },
+      {
+        "label": "Project Page (JP)",
+        "url": "projects/digitaldancegroup/jp-projects/Segmentation_of_continuous_Dance_Motion/"
+      },
+      {
+        "label": "Digital Library",
+        "url": "http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005304303320339"
+      }
+    ]
+  },
+  {
+    "image": "img/publications/expressive.jpg",
+    "alt": "Expressive Dance",
+    "url": "projects/digitaldancegroup/jp-projects/Expressive_Dance_Motion_Generation/",
+    "title": "Expressive Dance Motion Generation",
+    "authors": "Narumi Okada, Kazuki Okami, Tsukasa Fukusato, Naoya Iwamoto, Shigeo Morishima",
+    "venue": "ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.",
+    "links": [
+      {
+        "label": "Abstract",
+        "url": "https://dl.dropboxusercontent.com/s/4zms9du0stcxuhf/Siggraph_okada.pdf?dl=0"
+      },
+      {
+        "label": "Video",
+        "url": "https://youtu.be/1zRfETCZaho"
+      },
+      {
+        "label": "Poster",
+        "url": "https://dl.dropboxusercontent.com/s/9am9e6f2f2t36bm/Siggraph_okada_poseter.pdf?dl=0"
+      },
+      {
+        "label": "Project Page (JP)",
+        "url": "projects/digitaldancegroup/jp-projects/Expressive_Dance_Motion_Generation/"
+      }
+    ]
+  }
+]

@@ -1,576 +1,155 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home | Naoya Iwamoto</title>
+    <title>Naoya Iwamoto — Researcher × Digital Artist</title>
+    <meta name="description" content="Naoya Iwamoto / 岩本 尚也 — Team Leader (CG Lab - Da Vinci) at Huawei Technologies Japan, Tokyo Research Center. Research and creative work in character animation, rigging, motion capture and motion synthesis.">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Quicksand&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta name="google-site-verification" content="82GcvAAjA8mxyruDMuwBjPwjnsDEF3mbuL8j3jCQZlQ" />
 </head>
 
-<body>
-    <header>
-        <h1><a href="index.html">Naoya Iwamoto's Portfolio</a></h1>
-        <div class="container">
-            <div class="left">
+<body class="lang-en">
+    <script>
+        (function () {
+            // Default language is English; Japanese via ?lang=jp (or saved preference).
+            var l = new URLSearchParams(location.search).get("lang");
+            if (l == null) { try { l = localStorage.getItem("lang"); } catch (e) {} }
+            if (l === "jp" || l === "ja") {
+                document.body.classList.remove("lang-en");
+                document.body.classList.add("lang-ja");
+                document.documentElement.lang = "ja";
+            }
+        })();
+    </script>
+    <!-- Navigation ---------------------------------------------------- -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-brand">Naoya&nbsp;Iwamoto</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#works">Works</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#biography">Bio</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="lang-toggle" id="langToggle" role="group" aria-label="Language">
+                    <button type="button" data-lang="ja">JP</button>
+                    <button type="button" data-lang="en">EN</button>
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero ---------------------------------------------------------- -->
+    <header class="hero" id="top">
+        <div class="container hero-grid">
+            <div class="hero-media reveal">
                 <img src="img/profile/profile.png" alt="Naoya Iwamoto">
             </div>
-            <div class="right">
-                <h3>Senior Engineer (Animation)</h3>
-                <h2>岩本 尚也 / Naoya Iwamoto</h2>
-                <h4>HUAWEI TECHNOLOGIES JAPAN K. K.</h4>
-                <h4>TOKYO RESEACH CENTER</h4>
-                <p>
-                    <a href="https://www.instagram.com/iwanao731" target=”_blank”><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/iwamoto.naoya.1" target=”_blank”><i class="fab fa-facebook"></i></a>
-                    <a href="https://twitter.com/iwanao731" target=”_blank”><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/naoya-iwamoto-044b2924/" target=”_blank”><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.pinterest.jp/iwanao731" target=”_blank”><i class="fab fa-pinterest"></i></a>
-                    <a href="https://github.com/iwanao731" target=”_blank”><i class="fab fa-github"></i></a>
-                    <a href="https://www.youtube.com/playlist?list=PLQgYdnCcljURl1eBlJDZknpUHyf2CoIrw" target=”_blank”><i class="fab fa-youtube"></i></a>
+            <div class="hero-body reveal">
+                <p class="hero-eyebrow">Researcher Engineer</p>
+                <h1 class="hero-name">Naoya Iwamoto<span class="hero-name-jp jp-only">岩本 尚也</span></h1>
+                <p class="hero-role">CG Lab - Da Vinci, &nbsp;Team Leader</p>
+                <p class="hero-affil">HUAWEI TECHNOLOGIES JAPAN K.&nbsp;K. — Da Vinci Research Center</p>
+
+                <ul class="hero-tags">
+                    <li>Animation</li>
+                    <li>Rigging</li>
+                    <li>Capture</li>
+                    <li>Motion Synthesis</li>
+                </ul>
+
+                <p class="hero-social">
+                    <a href="https://www.instagram.com/iwanao731" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/iwamoto.naoya.1" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/iwanao731" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/naoya-iwamoto-044b2924/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.pinterest.jp/iwanao731" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://github.com/iwanao731" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com/playlist?list=PLQgYdnCcljURl1eBlJDZknpUHyf2CoIrw" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                 </p>
-                <h4>KEYWORD: Animation, Rigging, Capture, Motion Synthesis</h4>
             </div>
         </div>
     </header>
 
-    <section id="works">
-        <h2>Works</h2>
-        <a href="projects/3dlivemaker/" target="_blank">
-            <section id="LIVEMAKER">
-                <div class="works-bg"></div>
-                <h3>3D LIVE MAKER (Mate20 Pro) [2018]</h3>
-            </section>
-        </a>
-        <a href="projects/anyface/" target="_blank">
-            <section id="ANYFACE">
-                <div class="works-bg"></div>
-                <h3>ANYFACE (Honor V10) [2017]</h3>
-            </section>
-        </a>
-        <a href="projects/digitaldancegroup/" target="_blank">
-            <section id="DIGITALDANCEGROUP">
-                <div class="works-bg"></div>
-                <h3>DIGITAL DANCE GROUP [2014-2017]</h3>
-            </section>
-        </a>
+    <main>
+    <!-- Works --------------------------------------------------------- -->
+    <section class="section" id="works">
+        <div class="container">
+            <h2 class="section-title"><span class="section-index">01</span>Works</h2>
+            <div class="card-grid reveal" id="worksList"></div>
+        </div>
     </section>
 
-  <section id="doprojects">
-    <h2>Research Projects</h2>
+    <!-- Research Projects --------------------------------------------- -->
+    <section class="section" id="research">
+        <div class="container">
+            <h2 class="section-title"><span class="section-index">02</span>Research Projects</h2>
 
-    <div class="container">
-        <div class="left">
-          <h3><a href="" target="_blank"><img src="img/publications/EMAGE.png" alt="emage"></a></h3>
+            <div class="research-list reveal" id="researchList"></div>
         </div>
-        <div class="right">
-          <h4>EMAGE: Towards Unified Holistic Co-Speech Gesture Generation via Expressive Masked Audio Gesture Modeling</h4>
-          <p>Haiyang Liu, Zihao Zhu, Giorgio Becherini, Yichen Peng, Mingyang Su, You Zhou, Naoya Iwamoto, Bo Zheng, Michael J. Black</p>
-          <p>arXiv (2024)</p>
-          <p>[ <a href="https://arxiv.org/abs/2401.00374" target=”_blank”>Paper</a> ]
-             [ <a href="https://youtu.be/T0OYPvViFGE" target="_blank">Video (Youtube)</a> ]
-             [ <a href="https://pantomatrix.github.io/EMAGE/" target=”_blank”>Project Page</a> ]
+    </section>
+
+    <!-- Private Project ----------------------------------------------- -->
+    <section class="section" id="private">
+        <div class="container">
+            <h2 class="section-title"><span class="section-index">03</span>Private Project</h2>
+            <div class="card-grid card-grid-2 reveal" id="privateList"></div>
+        </div>
+    </section>
+
+    <!-- Activities: Activity / Award / Patent / Book / Funding / Service ------- -->
+    <section class="section" id="activities">
+        <div class="container">
+            <h2 class="section-title"><span class="section-index">04</span>Activity &amp; Media</h2>
+            <ul id="activityList" class="info-list reveal"></ul>
+
+            <div id="cvList" class="reveal"></div>
+        </div>
+    </section>
+
+    <!-- Publications --------------------------------------------------- -->
+    <section class="section" id="publications">
+        <div class="container">
+            <h2 class="section-title"><span class="section-index">05</span>Publication · Conference · Workshop</h2>
+            <ul id="pubList" class="pub-list reveal"></ul>
+        </div>
+    </section>
+
+    <!-- Biography ------------------------------------------------------ -->
+    <section class="section" id="biography">
+        <div class="container">
+            <h2 class="section-title"><span class="section-index">06</span>Biography</h2>
+            <div class="timeline reveal" id="biographyList"></div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-name">Naoya Iwamoto<span class="jp-only"> · 岩本 尚也</span></p>
+            <p class="footer-social">
+                <a href="https://www.instagram.com/iwanao731" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/iwanao731" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/naoya-iwamoto-044b2924/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/iwanao731" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/playlist?list=PLQgYdnCcljURl1eBlJDZknpUHyf2CoIrw" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
             </p>
+            <p class="footer-copy"><small>© Naoya Iwamoto</small></p>
         </div>
-    </div>
+    </footer>
 
-    <div class="container">
-        <div class="left">
-          <h3><a href="" target="_blank"><img src="img/publications/AvatarShell.png" alt="avatar_shell"></a></h3>
-        </div>
-        <div class="right">
-          <h4>Two Step Approach for Animatavle Avatar</h4>
-          <p>Takumi Kitamura, Naoya Iwamoto, Diego Thomas, Hiroshi Kawasaki</p>
-          <p>CGI 2023</p>
-          <p>[ <a href="https://link.springer.com/chapter/10.1007/978-3-031-50072-5_39" target=”_blank”>Paper</a> ]
-             [ <a href="https://github.com/diegothomas/Interactive-Animatable-Avatar" target="_blank">Code (GitHub)</a> ]
-            </p>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="left">
-          <h3><a href="https://pantomatrix.github.io/BEAT/" target="_blank"><img src="img/publications/beat.png" alt="beat"></a></h3>
-        </div>
-        <div class="right">
-          <h4>BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis</h4>
-          <p>Haiyang Liu, Zihao Zhu, Naoya Iwamoto, Yichen Peng, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng</p>
-          <p>ECCV 2022</p>
-          <p>[ <a href="https://arxiv.org/abs/2203.05297" target=”_blank”>Paper</a> ]
-             [ <a href="https://youtu.be/cXs5c_UxnvY" target="_blank">Video (Youtube)</a> ]
-             [ <a href="https://pantomatrix.github.io/BEAT/" target=”_blank”>Project Page</a> ]
-            </p>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="left">
-          <h3><a href="https://pantomatrix.github.io/DisCo/" target="_blank"><img src="img/publications/disco.png" alt="disco"></a></h3>
-        </div>
-        <div class="right">
-          <h4>DisCo: Disentangled Implicit Content and Rhythm Learning for Diverse Co-Speech Gesture Synthesis</h4>
-          <p>Haiyang Liu, Naoya Iwamoto, Zihao Zhu, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng</p>
-          <p>ACM Multi Media 2022</p>
-          <p>
-             [ <a href="https://dl.acm.org/doi/pdf/10.1145/3503161.3548400" target=”_blank”>Paper</a> ]
-             [ <a href="https://pantomatrix.github.io/DisCo/" target=”_blank”>Project Page</a> ]
-          </p>
-        </div>
-    </div>
-
-    <div class="container">
-      <div class="left">
-        <h3><a href="projects/digitaldancegroup/jp-projects/SignDance/" target="_blank"><img src="img/publications/sign_dance.jpg" alt="signdance"></a></h3>
-      </div>
-      <div class="right">
-        <h4>Automatic Sign Dance Synthesis from Gesture-based Sign Language</h4>
-        <p>Naoya Iwamoto, Hubert P. H. Shum, Wakana Asahina and Shigeo Morishima</p>
-        <p>Motion, Interaction and Games(MIG) 2019, Newcastle, UK, 2019.10.28-30</p>
-        <p>[ <a href="http://hubertshum.com/info/publications/mig2019dance/files/mig2019dance.pdf" target="_blank">Paper</a> ]
-           [ <a href="https://www.youtube.com/watch?v=D6D1x0ufZis" target="_blank">Video (Youtube)</a> ]
-           [ <a href="projects/digitaldancegroup/jp-projects/SignDance/" target="_blank">Project Page</a> ]
-           [ <a href="projects/digitaldancegroup/jp-projects/SignDance/signdance_bibtex.html" target="_blank">Bibtex</a> ]</p>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="left">
-        <h3><a href="projects/digitaldancegroup/jp-projects/Dance_DJ/" target=”_blank”><img src="img/publications/dancedj_2.jpg" alt="dancedj"></a></h3>
-      </div>
-      <div class="right">
-        <h4>DanceDJ: A 3D Dance Animation Authoring System for Live Performance</h4>
-        <p>Naoya Iwamoto, Takuya Kato(*joint first-author), Hubert P.H. Shum, Ryo Kakitsuka, Kenta Hara, Shigeo Morishima</p>
-        <p>ACE2017, London (UK), 2017.12.14-12.16. [ Gold Award ]</p>
-        <p>[ <a href="projects/digitaldancegroup/jp-projects/Dance_DJ/DanceDJ_ACE2017.pdf" target="_blank">Paper</a> ]
-           [ <a href="https://www.youtube.com/watch?v=6PI3tXIOPsE&feature=youtu.be" target="_blank">Video (Youtube)</a> ]
-           [ <a href="projects/digitaldancegroup/jp-projects/Dance_DJ/" target="_blank">Project Page</a> ]
-           [ <a href="projects/digitaldancegroup/jp-projects/Dance_DJ/dancedj_bibtex.html" target="_blank">Bibtex</a> ]</p>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="left">
-        <h3><a href="projects/digitaldancegroup/jp-projects/Choreographic_Authoring/" target=”_blank”><img src="img/publications/choreographautor_.jpg" alt="choreographautor"></a></h3>
-      </div>
-      <div class="right">
-        <h4>Authoring System for Choreography Using Dance Motion Retrieval and Synthesis</h4>
-        <p>Ryo Kakitsuka, Kosetsu Tsukuda, Satoru Fukayama, Naoya Iwamoto, Masataka Goto, Shigeo Morishima</p>
-        <p>CASA 2017</p>
-        <p>Full Paper, Seoul, South Korea, 2017.5.22-24.</p>
-        <p>[ <a href="https://dl.dropboxusercontent.com/s/thhssu0rtucrnjf/casa2017_kakitsuka.pdf?dl=0" target="_blank">Paper</a> ]
-           [ <a href="https://youtu.be/MAmZyeG3BsU" target="_blank">Video (Youtube)</a> ]
-           [ <a href="projects/digitaldancegroup/jp-projects/Choreographic_Authoring/" target="_blank">Project Page</a> ]
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="left">
-        <h3><a href="projects/digitaldancegroup/jp-projects/Synthesis_Facial_Animation/" target="_blank"><img src="img/publications/autoface.jpg" alt="autoface"></a></h3>
-      </div>
-      <div class="right">
-        <h4>Automatic Facial Animation Generation System of Dancing Characters Considering Emotion in Dance and Music</h4>
-        <p>Wakana Asahina, Narumi Okada, Naoya Iwamoto, Taro Masuda, Tsukasa Fukusato and Shigeo Morishima.</p>
-        <p>In Proceedings of the ACM SIGGRAPH ASIA 2015, Kobe, 2015.11.02-05.</p>
-        <p>[ <a href="https://dl.dropboxusercontent.com/s/8kg6o1ciawamco3/SIGASIA2015_asahina.pdf?dl=0" target="_blank">Abstract</a> ]
-           [ <a href="https://youtu.be/rREzw34CjXw" target="_blank">Video (Youtube)</a> ]
-           [ <a href="https://dl.dropboxusercontent.com/s/8kg6o1ciawamco3/SIGASIA2015_asahina.pdf?dl=0" target="_blank">Poster</a> ]
-           [ <a href="projects/digitaldancegroup/jp-projects/Synthesis_Facial_Animation/" target="_blank">Project Page(JP)</a> ]
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="left">
-        <h3><a href="projects/digitaldancegroup/jp-projects/Physically_based_Character_Animation/" target="_blank"><img src="img/publications/multilayerlattice.jpg" alt="multilayerlattice"></a></h3>
-      </div>
-      <div class="right">
-        <h4>Multi-layer Lattice Model for Real-Time Dynamic Character Deformation</h4>
-        <p>Naoya Iwamoto, Hubert P.H. Shum, Longzhi Yang, and Shigeo Morishima</p>
-        <p>Computer Graphics Forum(a.k.a. Pacific Graphics 2015)</p>
-        <p>[ <a href="http://hubertshum.com/info/publications/pg2015/files/pg2015.pdf" target="_blank">Paper</a> ]
-           [ <a href="https://youtu.be/xgx6M9o_RUs" target="_blank">Video (Youtube)</a> ]
-           [ <a href="projects/digitaldancegroup/jp-projects/Physically_based_Character_Animation/" target="_blank">Project Page(JP)</a> ]
-           [ <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.12749" target="_blank">Digital Library</a> ]
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="left">
-        <h3><a href="projects/digitaldancegroup/jp-projects/Segmentation_of_continuous_Dance_Motion/" target="_blannk"><img src="img/publications/dancesegment.jpg" alt="dancesegment"></a></h3>
-      </div>
-      <div class="right">
-        <h4>Dance Motion Segmentation Method Based on Choreographic Primitives</h4>
-        <p>Narumi Okada, Naoya Iwamoto, Tsukasa Fukusato and Shigeo Morishima</p>
-        <p>In Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP 2015), 47, Berlin, 2015.03.11-14.</p>
-        <p>[ <a href="https://dl.dropboxusercontent.com/s/uwuecio78g4b3sy/GRAPP_okada.pdf?dl=0" target="_blank">Paper</a> ]
-           [ <a href="https://youtu.be/xzWOBEhk0RA" target="_blank">Video (Youtube)</a> ]
-           [ <a href="projects/digitaldancegroup/jp-projects/Segmentation_of_continuous_Dance_Motion/" target="_blank">Project Page(JP)</a> ]
-           [ <a href="http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005304303320339" target="_blank">Digital Library</a> ]
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="left">
-        <h3><a href="projects/digitaldancegroup/jp-projects/Expressive_Dance_Motion_Generation/" target="_blank"><img src="img/publications/expressive.jpg" alt="expressivedance"></a></h3>
-      </div>
-      <div class="right">
-        <h4>Expressive Dance Motion Generation</h4>
-        <p>Narumi Okada, Kazuki Okami, Tsukasa Fukusato, Naoya Iwamoto, Shigeo Morishima</p>
-        <p>ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.</p>
-        <p>[ <a href="https://dl.dropboxusercontent.com/s/4zms9du0stcxuhf/Siggraph_okada.pdf?dl=0" target="_blank">Abstract</a> ]
-           [ <a href="https://youtu.be/1zRfETCZaho" target="_blank">Video (Youtube)</a> ]
-           [ <a href="https://dl.dropboxusercontent.com/s/9am9e6f2f2t36bm/Siggraph_okada_poseter.pdf?dl=0" target="_blank">Poster</a> ]
-           [ <a href="projects/digitaldancegroup/jp-projects/Expressive_Dance_Motion_Generation/" target="_blank">Project Page(JP)</a> ]
-      </div>
-    </div>
-  </section>
-
-  <section id="works">
-    <h2>Private Project</h2>
-    <a href="https://paper.dropbox.com/doc/How-to-Create-Volumetric-Video-Without-Owning-a-Kinect--CDMzZQT0_L3H~5g4eBeWsZCMAQ-a2TOK3WKfIayRqbkjDjMP" target="_blank">
-        <section id="VOLUMETRICVIDEO">
-            <div class="works-bg"></div>
-            <h3>Volumetric Video</h3>
-        </section>
-    </a>
-    <a href="https://note.com/euclid/n/n800fb7c3b3a5" target="_blank">
-        <section id="VIRTUALFITTING">
-            <div class="works-bg"></div>
-            <h3>Virtual Fitting</h3>
-        </section>
-    </a>
-    </section>
-
-    <section id="activity">
-        <h2>Activity | Media</h2>
-        <ul>
-            <li>2023.06 [出版] コンピュータビジョン最前線 Summer 2023 「フカヨミジェスチャー動作生成」[ <a href="https://www.kyoritsu-pub.co.jp/book/b10031222.html">Link</a> ]</li> 
-            <li>2022.06 [講義] 駒澤大学 GMSキャリア講座Ⅲ 招待講義「アカデミック発クリエイター行 - 未曽有の危機を生き抜くための生存戦略 -」</li> 
-            <li>2022.04 [講演] 日本ダンス研究会 「音声に応じた多様な身体動作生成を目指して」[ <a href="https://sites.google.com/view/jsds/" ]>Link</a> ] </li>
-            <li>2021.11 [講演] 第26回VR学会大会オーガナイズドセッション「アート・エンタテインメントをアウトプットする ー論文・作品への展開事例ー」 [ <a href="http://sigae.vrsj.org/" ]>Link</a> ] </li>
-            <li>2021.09 [研究発表] VC 2021 「二段階スキニング分解による頂点アニメーションの近似 (long)」 [ <a href="https://cgvi.jp/vc2021/program/oral/#paper_08">Link</a> ]</li> 
-            <li>2021.06 [講義] 駒澤大学 GMSキャリア講座Ⅲ 招待講義「アカデミック発クリエイター行」 [ <a href="https://youtu.be/QzWnHFSnAdg">Link</a> ]</li> 
-            <li>2020.12 [招待講演] VC2020「3D LIVE MAKER: 好きなキャラクタに命を吹き込むまで」 [ <a href="http://cgvi.jp/vc2020/program/oral/#paper_07">Link</a> ]</li> 
-            <li>2020.06 [寄稿] "How to Create Volumetric Video Without Owning a Kinect?" [ <a href="http://volumetric-video.com/create-volumetric-video-without-owning-a-kinect/">Link</a> ]</li> 
-            <li>2020.03 [インタビュー] Huawei Carrer [ <a href="https://career.huawei.com/reccampportal/jp/campus-recruitment.html">Link</a> ]</li> 
-            <li>2020.03 [インタビュー] リクナビ 華為技術日本株式会社 先輩の声 [ <a href="https://job.rikunabi.com/2021/company/r218130057/senior/K106/">Link</a> ]</li> 
-            <li>2019.08 [インタビュー] "Huawei: Who Are We? AR Is His Middle Name" [ <a href="https://www.youtube.com/watch?v=FeKDBC5b3sw&ab_channel=Huawei">Link</a> ]</li> 
-            <li>2019.06 [招待講演] Polygon Lounge #2 「openFrameworksを使ったキャラクタアニメーション研究事例〜プロトタイピングから製品に至るまで」 [ <a href="https://polygonlounge-2.peatix.com/">Link</a> ]</li> 
-            <li>2019.01 [寄稿] 【[Tech Lab2018]ゲーム映像VRゼミ】 門口 洋一郎氏による特別講義 人を魅了するコンテンツ制作をするための ノウハウ「VR and more」 [ <a href="https://school.dhw.co.jp/school/tokyo/blog/20190116.html">Link</a> ]</li> 
-            <li>2018.12 [招待講演] SIGDance Cypher Session #1 「キャラクタアニメーションで実現する楽曲の可視化表現」 [ <a href="https://www.sigdance.site/cypher-session-vol-1">Link</a> ]</li> 
-            <li>2018.10 [製品リリース] Huawei Mate20 Pro "3D LIVE MAKER" [ <a href="https://youtu.be/8gfVhKKykIM">Link</a> ]</li> 
-            <li>2017.10 [ワークショップ] RAM CAMP in Kyoto 2017 [ <a href="https://kyoto-ex.jp/home/archive/2017_ram_camp/">Link</a> ]</li> 
-            <li>2017.08 [講演] CEDEC2017 「ダンスコンテンツ研究が拓くエンターテインメントイノベーション」 [ <a href="https://cedec.cesa.or.jp/2017/session/AC/s58df6553e939a.html">Link</a> ]</li> 
-            <li>2016.11 [寄稿] 早稲田大学 SGU 海外派遣 Los Angels, US [ <a href="http://www.sgu-ictrobotics.sci.waseda.ac.jp/activities/student/n-iwamoto_2/">Link</a> ]</li> 
-            <li>2016.06 [ワークショップ] 「ステンドグラスでつくる,キャンドルホルダーワークショップ」 [ <a href="http://fablabsendai-flat.com/2016/07/09/report_caapws_vol01/">Link</a> ]</li> 
-            <li>2015.07 [寄稿] 「【インターンレポート】毎日食べて飲んで作った FabLab SENDAIで過ごす日々は大人の青春で溢れていた」 [ <a href="http://fablabsendai-flat.com/2015/07/04/intern_report20150703/">Link</a> ]</li> 
-            <li>2015.02 [寄稿] 早稲田大学 SGU 海外派遣 Newcastle, UK [ <a href="http://www.sgu-ictrobotics.sci.waseda.ac.jp/activities/student/n-iwamoto/">Link</a> ]</li> 
-            <li>2015.01 [出演] テクネ~映像の教室 プログラミング [ <a href="https://youtu.be/aPcoKc-2ge4">Link</a> ]</li> 
-            <li>2014.12 [事業] フロンティアメイカーズ育成事業 「立体ステンドグラス作成支援ツールの開発」 [ <a href="http://www.mlab.phys.waseda.ac.jp/%E7%AB%8B%E4%BD%93%E3%82%B9%E3%83%86%E3%83%B3%E3%83%89%E3%82%B0%E3%83%A9%E3%82%B9%E4%BD%9C%E6%88%90%E6%94%AF%E6%8F%B4%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AE%E9%96%8B%E7%99%BA/">Link</a> ]</li> 
-            <li>2014.04 [ワークショップ] インタラクティブ・クリエーション・キャンプ 「Cloud Sending」 [ <a href="http://www.cbc-net.com/topic/2014/04/ice-icc-report/">Link</a> ]</li> 
-        </ul>    
-    </section>
-
-    <section id="activity">
-        <h2>Award</h2>
-        <ul>
-            <li>2020.11 14th FORUM8 DESIGN FESTIVAL 2020, フォーラムエイト賞 「一枚画像からのフォトリアリスティックな歌唱およびダンスキャラクタ自動生成」[ <a href="http://soatassoc.org/hagura?fbclid=IwAR3NJ4sKNmnmFWI02by9WZwpu1sF6Jl72Vf0oLvoBQbaGFIPZQm7-cLusfA">Link</a> ]</li> 
-            <li>2017.12 Gold Award ACE2017 DanceDJ: A 3D Dance Animation Authoring System for Live Performance</li> 
-            <li>2016.07 早稲田大学アプリケーションコンテスト レコチョク賞受賞 「ダンスDJ -ダンスをMixする新しい感覚-」</li> 
-            <li>2015.07 早稲田大学アプリケーションコンテスト 優勝 「Parrot -特別な耳で音楽を聴こう-」</li> 
-            <li>2012.06 ビジュアルコンピューティング学会 VC賞受賞</li> 
-        </ul>    
-    </section>
-
-    <section id="activity">
-        <h2>Patent</h2>
-        <ul>
-            <li>OBJECT MODELING AND MOVEMENT METHOD AND APPARATUS, AND DEVICE [ <a href="https://www.freepatentsonline.com/y2020/0349765.html">Link</a> ] </li> 
-        </ul>
-    </section>
-
-    <section id="activity">
-        <h2>Book</h2>
-        <ul>
-            <li>2023.06 コンピュータビジョン最前線 Summer 2023 「フカヨミジェスチャー動作生成」 [ <a href="https://www.kyoritsu-pub.co.jp/book/b10031222.html">Link</a> ] </li> 
-        </ul>
-    </section>
-
-    <section id="activity">
-        <h2>Funding</h2>
-        <ul>
-            <li>2018.04 デジタルハリウッド東京本校 特待生第一種</li> 
-            <li>2014.12 経済産業省フロンティアメイカーズ育成事業採択 「立体ステンドグラス作成支援ツールの開発」</li> 
-        </ul>
-    </section>
-
-    <section id="activity">
-        <h2>Academic Service</h2>
-        <ul>
-            <li>CVPR'24, TVCG'22'23, PG'22, CGI'23...</li> 
-        </ul>
-
-        <h2>Committee</h2>
-        <ul>
-            <li>Pacific Graphics 2022 運営委員 (2022) [ <a href="https://pg2022.org/">Link</a> ]</li> 
-            <li>VC2022 運営委員 (2022) [ <a href="http://visualcomputing.sakura.ne.jp/">Link</a> ]</li> 
-            <li>VR学会アート＆エンタテインメント研究委員会 委員 (2021) [ <a href="http://sigae.vrsj.org/pukiwiki/public.php">Link</a> ]</li> 
-            <li>VC2021 運営委員 (2021) [ <a href="https://cgvi.jp/vc2021/">Link</a> ]</li> 
-            <li>SIGDance 運営委員 (2020–現在) [ <a href="https://www.sigdance.site/">Link</a> ]</li> 
-            <li>情報処理学会 コンピュータグラフィックスとビジュアル情報学研究会 運営委員 (2019–現在) [ <a href="http://cgvi.jp/">Link</a> ]</li> 
-            <li>VC2019 プログラム委員 (2019) [ <a href="https://cgvi.jp/vc2019/">Link</a> ]</li> 
-        </ul>
-    </section>
-    
-    <section id="publications">
-            <h2>Publication | Conference | Workshop</h2>
-            <ul>
-                <li>Haiyang Liu, Zihao Zhu, Giorgio Becherini, Yichen Peng, Mingyang Su, You Zhou, <span class="font_line">Naoya Iwamoto</span>, Bo Zheng, Michael J. Black,
-                    <span class="font_bold">EMAGE: Towards Unified Holistic Co-Speech Gesture Generation via Expressive Masked Audio Gesture Modeling</span>, 
-                    <span class="font_italic">arXiv (2024), 2024.01</span>
-                </li>                
-                <li>Takumi Kitamura, <span class="font_line">Naoya Iwamoto</span>, Diego Thomas, Hiroshi Kawasaki,
-                    <span class="font_bold">Two Step Approach for Animatavle Avatar</span>, 
-                    <span class="font_italic">CGI 2023, 2023.09</span>
-                </li>                
-                <li>Haiyang Liu, Zihao Zhu, <span class="font_line">Naoya Iwamoto</span>, Yichen Peng, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng,
-                    <span class="font_bold">BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis</span>, 
-                    <span class="font_italic">ECCV 2022, 2022.10</span>
-                </li>                
-                <li>Haiyang Liu, <span class="font_line">Naoya Iwamoto</span>, Zihao Zhu, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng,
-                    <span class="font_bold">DisCo: Disentangled Implicit Content and Rhythm Learning for Diverse Co-Speech Gesture Synthesis</span>, 
-                    <span class="font_italic">ACM Multi Media 2022, 2022.10</span>
-                </li>                
-                <li>Takumi Kitamura, Diego Thomas, <span class="font_line">Naoya Iwamoto</span>, Hiroshi Kawasaki,
-                    <span class="font_bold">Real-time Animatable Avatars with a Rigged Human Outer-shell</span>, 
-                    <span class="font_italic">MIRU2022 (short oral), 2022.06</span>
-                </li>
-                <li>Haiyang Liu, Zihao Zhu, <span class="font_line">Naoya Iwamoto</span>, Yichen Peng, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng,
-                    <span class="font_bold">BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis</span>, 
-                    <span class="font_italic">arXiv, 2022.03</span>
-                </li>
-                <li>向井 智彦 (東京都立大学), <span class="font_line">岩本 尚也</span>,
-                    <span class="font_bold">二段階スキニング分解による頂点アニメーションの近似</span>, 
-                    <span class="font_italic">VC2021 (long), オンライン, 2021.09.28-10.01</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 佐藤 浩之, Bo Zheng, 
-                    <span class="font_bold">3D LIVE MAKER: 好きなキャラクタに命を吹き込むまで</span>, 
-                    <span class="font_italic">VC2020, オンライン, 2020.12.02-04</span>
-                </li>
-                <li><span class="font_line">Naoya Iwamoto</span>, Hubert P. H. Shum, Wakana Asahina and Shigeo Morishima, 
-                    <span class="font_bold">Automatic Sign Dance Synthesis from Gesture-based Sign Language</span>, 
-                    <span class="font_italic">Motion, Interaction and Games(MIG) 2019, Newcastle, UK, 2019.10.28-30</span>
-                </li>
-                <li><span class="font_line">Naoya Iwamoto</span>, Takuya Kato(*joint first-author), Hubert P.H. Shum, Ryo Kakitsuka, Kenta Hara, Shigeo Morishima,
-                    <span class="font_bold">DanceDJ: A 3D Dance Animation Authoring System for Live Performance</span>, 
-                    <span class="font_italic">ACE 2017, London (UK), 2017.12.14-12.16. [ Gold Award ]</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 加藤 卓哉(*共同主著)，原 健太，柿塚 亮，森島 繁生,
-                    <span class="font_bold">DanceDJ: ライブパフォーマンスを実現する実時間ダンス生成システム</span>, 
-                    <span class="font_italic">WISS 2017, 2017.12</span>,
-                </li>
-                <li><span class="font_line">岩本 尚也</span>，柿塚 亮，朝比奈 わかな，加藤 卓哉，Hubert P.H. Shum，原 健太，岡田 成美，森島 繁生,
-                    <span class="font_bold">ダンスコンテンツ研究が拓くエンターテインメントイノベーション</span>, 
-                    <span class="font_italic">CEDEC 2017, レギュラーセッション, 2017.9</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>，柿塚 亮，加藤 卓哉，Hubert P.H. Shum，原 健太，森島 繁生,
-                    <span class="font_bold"><a href=""></a>DanceDJ: ライブパフォーマンスのための実時間ダンス編集システムの提案</span>, 
-                    <span class="font_italic">CEDEC 2017, インタラクティブセッション, 2017.9</span>
-                    [ <a href="https://www.wiss.org/WISS2017Proceedings/oral/02.pdf">Link</a> ]
-                </li>
-                <li>Ryo Kakitsuka, Kosetsu Tsukuda, Satoru Fukayama, <span class="font_line">Naoya Iwamoto</span>, Masataka Goto, Shigeo Morishima,
-                    <span class="font_bold">Authoring System for Choreography Using Dance Motion Retrieval and Synthesis</span>, 
-                    <span class="font_italic">The 30th International Conference on Computer Animation and Social Agents(CASA 2017), 2017.5</span>
-                </li>
-                <li><span class="font_line">Naoya Iwamoto</span>,
-                    <span class="font_bold">Physics-based Animation Beyond Capture Data</span>, 
-                    <span class="font_italic">博士論文, 2017.2</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 加藤 卓哉，原 健太，柿塚 亮，森島 繁生,
-                    <span class="font_bold">DanceDJ: ライブパフォーマンスのためのダンス動作ミックスシステム</span>,
-                    <span class="font_italic">WISS2016, 2016.12</span>
-                    [ <a href="https://www.wiss.org/WISS2016Proceedings/demo/1-A02.pdf">Link</a> ]
-                </li>
-                <li>Ryo Kakitsuka, Kosetsu Tsukuda, Satoru Fukayama, <span class="font_line">Naoya Iwamoto</span>, Masataka Goto, Shigeo Morishima,
-                    <span class="font_bold">A choreographic authoring system for character dance animation reflecting a user’s preference</span>, 
-                    <span class="font_italic">Eurographics/ACM SIGGRAPH Symposium on Computer Animation (SCA) 2016, Zurich, 2016.7</span>
-                </li>
-                <li>Wakana Asahina, <span class="font_line">Naoya Iwamoto</span>, Hubert P.H. Shum, Shigeo Morishima,
-                    <span class="font_bold">Automatic Dance Generation System Considering Sign Language Information</span>, 
-                    <span class="font_italic">ACM SIGGRAPH 2016, Anaheim, 2016.7</span>
-                </li>    
-                <li>柿塚 亮, <span class="font_line">岩本 尚也</span>, 朝比奈 わかな, 森島 繁生,
-                    <span class="font_bold">好みを反映した3Dダンス制作のための振付編集手法</span>, 
-                    <span class="font_italic">Visual Computing/GCAD 合同シンポジウム 2016. 早稲田大学, 2016.6</span>
-                </li>    
-                <li><span class="font_line">Naoya Iwamoto</span>，Hubert P.H. Shum, Longzhi Yang, Shigeo Morishima,
-                    <span class="font_bold">Multi-layer Lattice Model for Real-Time Dynamic Character Deformation</span>, 
-                    <span class="font_italic">Computer Graphics Forum(a.k.a. Pacific Graphics 2015), 2015.10</span>
-                </li>
-                <li>朝比奈 わかな, 岡田 成美, <span class="font_line">岩本 尚也</span>, 増田 太郎, 福里 司, 森島 繁生,
-                    <span class="font_bold">楽曲印象に基づくダンスモーションに同期したダンスキャラクタの表情自動合成</span>, 
-                    <span class="font_italic">第20回 日本顔学会大会(フォーラム顔学 2015). 日本顔学会論文誌, Vol.15, pp.124, 2015.9</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 森島 繁生,
-                    <span class="font_bold">キャラクターの身体構㐀を考慮した実時間肉揺れ生成手法</span>, 
-                    <span class="font_italic">画像電子学会誌 第 44 巻,第 3 号, p502-511, 2015.7</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 森島 繁生,
-                    <span class="font_bold">多重レイヤーボリューム構造を考慮した キャラクターのリアルタイム肉揺れアニメーション生成手法</span>, 
-                    <span class="font_italic">Visual Computing / グラフィクスと CAD 合同シンポジウム 2015, 2015.6</span>
-                </li>
-                <li>朝比奈 わかな, 岡田 成美, 岩本 尚也, 増田 太郎, 福里 司, 森島 繁生,
-                    <span class="font_bold">ダンスにシンクロした楽曲印象推定によるダンスキャラクタの表情アニメーション生成手法の提案</span>, 
-                    <span class="font_italic">Visual Computing / グラフィクスと CAD 合同シンポジウム 2015, 2015.6</span>
-                </li>
-                <li>Narumi Okada, Tsukasa Fukusato, <span class="font_line">Naoya Iwamoto</span>, Shigeo Morishima,
-                    <span class="font_bold">Dance Motion Segmentation Method Based on Choreographic Primitives</span>, 
-                    <span class="font_italic">GRAPP 2015, Short Paper, Berlin, 2015.3.11-14</span>
-                </li>
-                <li>朝比奈 わかな, 岡田 成美, <span class="font_line">岩本 尚也</span>, 増田 太郎, 福里 司, 森島 繁生,
-                    <span class="font_bold">ダンスモーションに同期した表情自動合成のための楽曲印象解析手法の提案</span>, 
-                    <span class="font_italic">情報処理学会 第77回全国大会, 2S-08, 京都, 2015.3</span>
-                </li>
-                <li>朝比奈 わかな, 岡田 成美, <span class="font_line">岩本 尚也</span>, 増田 太郎, 福里 司, 森島 繁生,
-                    <span class="font_bold">ダンスモーションにシンクロした音楽印象推定手法の提案とダンサーの表情自動合成への応用</span>, 
-                    <span class="font_italic">情報処理学会 第 106 回音楽情報処理科学研究会, 23, 山梨, 2015.3</span>
-                </li>
-                <li>岡田 成美, 福里 司, <span class="font_line">岩本 尚也</span>, 森島 繁生,
-                    <span class="font_bold">振り付けの構成要素を考慮したダンスモーションのセグメンテーション手法の提案</span>, 
-                    <span class="font_italic">GCAD研究会2014@名古屋, 2014.9月</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 森島 繁生,
-                    <span class="font_bold">"肉揺れ"を実現するキャラクターアニメーションシステム</span>, 
-                    <span class="font_italic">CEDEC2014. 2014年9月</span>
-                </li>
-                <li>Kakuto Goto, <span class="font_line">Naoya Iwamoto</span>, Shunsuke Saito, Shigeo Morishima,
-                    <span class="font_bold">The efficient and robust sticky viscoelastic material simulation</span>, 
-                    <span class="font_italic">SIGGRAPH 2014, Vancouver, 2014.8</span>
-                </li>
-                <li><span class="font_line">Naoya Iwamoto</span>, Shigeo Morishima,
-                    <span class="font_bold">Material Parameter Editing System for Volumetric Simulation Models</span>, 
-                    <span class="font_italic">ACM SIGGRAPH 2014, 10, 2014.7</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 森島 繁生,
-                    <span class="font_bold">ボーンベースの弾性体キャラクターアニメーションシステムの研究</span>, 
-                    <span class="font_italic">卓越シンポジウム2013. 2013年12月</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 森島 繁生,
-                    <span class="font_bold">スケルトンベースの高速な弾性体キャラクターアニメーション手法</span>, 
-                    <span class="font_italic">ビジュアルコンピューティングワークショップ2013. 画像電子学会誌,第42巻,第1号,「VCWS2013報告」p115-123(2013), 2013年11月</span>
-                </li>
-                <li>Narumi Okada, Kazuki Okami, Tsukasa Fukusato, <span class="font_line">Naoya Iwamoto</span>, Shigeo Morishima,
-                    <span class="font_bold">Expressive Dance Motion Generation</span>, 
-                    <span class="font_italic">ACM SIGGRAPH 2013, Poster, Anaheim, 2013.7.21-25</span>
-                </li>
-                <li>Kazuki Okami, <span class="font_line">Naoya Iwamoto</span>, Akinobu Maejima, Shigeo Morishima,
-                    <span class="font_bold">Reflectance Estimation of Human Face from a Single Shot Image</span>, 
-                    <span class="font_italic">ACM SIGGRAPH 2013, Poster, Anaheim, 2013.7.21-25</span>
-                </li>
-                <li>岡見 和樹, <span class="font_line">岩本 尚也</span>, 前島 謙宣, 森島 繁生,
-                    <span class="font_bold">一枚顔画像を入力とした顔の反射特性推定</span>, 
-                    <span class="font_italic">Visual Computing/GCAD 合同シンポジウム 2013. 2013.6</span>
-                </li>
-                <li>岡田 成美, 岡見 和樹, 福里 司, <span class="font_line">岩本 尚也</span>, 森島 繁生,
-                    <span class="font_bold">ダンスモーションにおける表現のバリエーション生成</span>, 
-                    <span class="font_italic">情報処理学会 第75回全国大会, 6ZB-6, 仙台, 2013.3</span>
-                </li>
-                <li>福里 司, <span class="font_line">岩本 尚也</span>, 森島 繁生,
-                    <span class="font_bold">アニメ作品のコミック画像解析に基づく動画要約手法の提案</span>, 
-                    <span class="font_italic">画像電子学会 Visual Computing ワークショップ 2012, 画像電子学会誌, Vol42, No.1, p.117, 2013.1</span>
-                </li>
-                <li>Tsukasa Fukusato, <span class="font_line">Naoya Iwamoto</span>, Shoji Kunitomo, Hirofumi Suda, Shigeo Morishima,
-                    <span class="font_bold">Hair Motion Capturing from Multiple View Videos</span>, 
-                    <span class="font_italic">ACM SIGGRAPH 2012, 55, Los Angeles, 2012.8</span>
-                </li>
-                <li>Shunsuke Saito, Ryusuke Sagawa, <span class="font_line">Naoya Iwamoto</span>, Shigeo Morishima,
-                        <span class="font_bold">Cloth Parameter Estimation</span>, 
-                        <span class="font_italic">SCA 2012, EPFL. Switzerland, 2012.7</span>
-                </li>
-                <li>福里 司, <span class="font_line">岩本 尚也</span>, 國友 翔次, 須田 洋文, 森島 繁生,
-                    <span class="font_bold">ステレオカメラ画像の色相検出に基づくマーカレス頭髪モーションキャプチャ</span>, 
-                    <span class="font_italic">Visual Computing/GCAD 合同シンポジウム 2012.東京, 2012.6</span>
-                </li>
-                <li>岡見 和樹, <span class="font_line">岩本 尚也</span>, 國友 翔次, 須田 洋文, 森島 繁生,
-                    <span class="font_bold">動作の多様性を生成するデータドリブンな歩行動作変換</span>, 
-                    <span class="font_italic">Visual Computing/GCAD 合同シンポジウム 2012.東京,2012.6</span>
-                </li>
-                <li>福里 司, <span class="font_line">岩本 尚也</span>, 國友 翔次, 須田 洋文, 森島 繁生,
-                    <span class="font_bold">複数台のビデオ映像解析による頭髪モーションキャプチャ</span>, 
-                    <span class="font_italic">電子情報通信学会 2012 総合大会講演論文集, ISSN1349-1377, 岡山, 2012.3</span>
-                </li>
-                <li>福里 司, <span class="font_line">岩本 尚也</span>, 國友 翔次, 須田 洋文, 森島 繁生,
-                    <span class="font_bold">動画像解析に基づくリアルな頭髪運動再現</span>, 
-                    <span class="font_italic">情報処理学会 グラフィックスとCAD研究会 第146回研究発表会, 2, 東京, 2012.2</span>
-                </li>
-                <li><span class="font_line">Naoya Iwamoto</span>, Ryusuke Sagawa, Shoji Kunitomo, Shigeo Morishima,
-                    <span class="font_bold">Estimating Fluid Simulation Parameters from Video</span>, 
-                    <span class="font_italic">ACM SIGGRAPH 2011, 2011.7</span>
-                </li>
-                <li><span class="font_line">Naoya Iwamoto</span>, Ryusuke Sagawa, Shoji Kunitomo, Shigeo Morishima,
-                    <span class="font_bold">Estimating Fluid Simulation Parameter from Videos</span>, 
-                    <span class="font_italic">ACM SIGGRAPH / Eurographics Symposium on Computer Animation (SCA), 2011.7</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 佐川 立昌，国友 翔次，森島 繁生,
-                    <span class="font_bold">動的な液面形状を考慮した流体シミュレーションパラメータ推定</span>, 
-                    <span class="font_italic">Visual Computing / グラフィクスと CAD 合同シンポジウム 2011. 2011.6</span>
-                </li>
-                <li><span class="font_line">岩本 尚也</span>, 佐川 立昌，国友 翔次，森島 繁生,
-                    <span class="font_bold">動的な液面形状を考慮した流体シミュレーションパラメータ推定</span>, 
-                    <span class="font_italic">電子情報通信学会総合大会 2011. 2011.3</span>
-                </li>
-            </ul>
-    </section>
-        
-    <section id="activity">
-        <h2>Biography</h2>
-        <table>
-            <tr>
-                <td>2019.4 - Current</td>
-                <td>Tokyo Research Center, Huawei Technologies Japan K.K.</td>
-                <td>Senior Engineer</td>
-            </tr>
-            <tr>
-                <td>2017.4 - 2019.3</td>
-                <td>Tokyo Research Center, Huawei Technologies Japan K.K.</td>
-                <td>Engineer</td>
-            </tr>
-            <tr>
-                <td>2015.9 - 2016.1</td>
-                <td>Northumbria University, UK</td>
-                <td>Academic Visitor</td>
-            </tr>
-            <tr>
-                <td>2014.4 - 2014.9</td>
-                <td>Northumbria University, UK</td>
-                <td>Academic Visitor</td>
-            </tr>
-            <tr>
-                <td>2013.4 - 2017.3</td>
-                <td>Pure and Applied Physics, Waseda University, JP</td>
-                <td>Ph.D</td>
-            </tr>
-            <tr>
-                <td>2011.4 - 2014.3</td>
-                <td>Pure and Applied Physics, Waseda University, JP</td>
-                <td>MS</td>
-            </tr>
-            <tr>
-                <td>2007.4 - 2011.3</td>
-                <td>Applied Physics, Waseda University, JP</td>
-                <td>BA</td>
-            </tr>
-        </table>        
-    </section>
-
-    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/main.js"></script>
-
 </body>
 </html>

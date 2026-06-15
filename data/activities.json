@@ -1,0 +1,174 @@
+[
+  {
+    "lang": "ja",
+    "date": "2023.06",
+    "category": "出版",
+    "text": "コンピュータビジョン最前線 Summer 2023 「フカヨミジェスチャー動作生成」",
+    "url": "https://www.kyoritsu-pub.co.jp/book/b10031222.html"
+  },
+  {
+    "lang": "ja",
+    "date": "2022.06",
+    "category": "講義",
+    "text": "駒澤大学 GMSキャリア講座Ⅲ 招待講義「アカデミック発クリエイター行 - 未曽有の危機を生き抜くための生存戦略 -」"
+  },
+  {
+    "lang": "ja",
+    "date": "2022.04",
+    "category": "講演",
+    "text": "日本ダンス研究会 「音声に応じた多様な身体動作生成を目指して」",
+    "url": "https://sites.google.com/view/jsds/"
+  },
+  {
+    "lang": "ja",
+    "date": "2021.11",
+    "category": "講演",
+    "text": "第26回VR学会大会オーガナイズドセッション「アート・エンタテインメントをアウトプットする ー論文・作品への展開事例ー」",
+    "url": "http://sigae.vrsj.org/"
+  },
+  {
+    "lang": "ja",
+    "date": "2021.09",
+    "category": "研究発表",
+    "text": "VC 2021 「二段階スキニング分解による頂点アニメーションの近似 (long)」",
+    "url": "https://cgvi.jp/vc2021/program/oral/#paper_08"
+  },
+  {
+    "lang": "ja",
+    "date": "2021.06",
+    "category": "講義",
+    "text": "駒澤大学 GMSキャリア講座Ⅲ 招待講義「アカデミック発クリエイター行」",
+    "url": "https://youtu.be/QzWnHFSnAdg"
+  },
+  {
+    "lang": "ja",
+    "date": "2020.12",
+    "category": "招待講演",
+    "text": "VC2020「3D LIVE MAKER: 好きなキャラクタに命を吹き込むまで」",
+    "url": "http://cgvi.jp/vc2020/program/oral/#paper_07"
+  },
+  {
+    "lang": "en",
+    "date": "2020.06",
+    "category": "寄稿",
+    "category_en": "Article",
+    "text": "\"How to Create Volumetric Video Without Owning a Kinect?\"",
+    "url": "http://volumetric-video.com/create-volumetric-video-without-owning-a-kinect/"
+  },
+  {
+    "lang": "en",
+    "date": "2020.03",
+    "category": "インタビュー",
+    "category_en": "Interview",
+    "text": "Huawei Carrer",
+    "url": "https://career.huawei.com/reccampportal/jp/campus-recruitment.html"
+  },
+  {
+    "lang": "ja",
+    "date": "2020.03",
+    "category": "インタビュー",
+    "text": "リクナビ 華為技術日本株式会社 先輩の声",
+    "url": "https://job.rikunabi.com/2021/company/r218130057/senior/K106/"
+  },
+  {
+    "lang": "en",
+    "date": "2019.08",
+    "category": "インタビュー",
+    "category_en": "Interview",
+    "text": "\"Huawei: Who Are We? AR Is His Middle Name\"",
+    "url": "https://www.youtube.com/watch?v=FeKDBC5b3sw&ab_channel=Huawei"
+  },
+  {
+    "lang": "ja",
+    "date": "2019.06",
+    "category": "招待講演",
+    "text": "Polygon Lounge #2 「openFrameworksを使ったキャラクタアニメーション研究事例〜プロトタイピングから製品に至るまで」",
+    "url": "https://polygonlounge-2.peatix.com/"
+  },
+  {
+    "lang": "ja",
+    "date": "2019.01",
+    "category": "寄稿",
+    "text": "【[Tech Lab2018]ゲーム映像VRゼミ】 門口 洋一郎氏による特別講義 人を魅了するコンテンツ制作をするための ノウハウ「VR and more」",
+    "url": "https://school.dhw.co.jp/school/tokyo/blog/20190116.html"
+  },
+  {
+    "lang": "ja",
+    "date": "2018.12",
+    "category": "招待講演",
+    "text": "SIGDance Cypher Session #1 「キャラクタアニメーションで実現する楽曲の可視化表現」",
+    "url": "https://www.sigdance.site/cypher-session-vol-1"
+  },
+  {
+    "lang": "en",
+    "date": "2018.10",
+    "category": "製品リリース",
+    "category_en": "Product Release",
+    "text": "Huawei Mate20 Pro \"3D LIVE MAKER\"",
+    "url": "https://youtu.be/8gfVhKKykIM"
+  },
+  {
+    "lang": "en",
+    "date": "2017.10",
+    "category": "ワークショップ",
+    "category_en": "Workshop",
+    "text": "RAM CAMP in Kyoto 2017",
+    "url": "https://kyoto-ex.jp/home/archive/2017_ram_camp/"
+  },
+  {
+    "lang": "ja",
+    "date": "2017.08",
+    "category": "講演",
+    "text": "CEDEC2017 「ダンスコンテンツ研究が拓くエンターテインメントイノベーション」",
+    "url": "https://cedec.cesa.or.jp/2017/session/AC/s58df6553e939a.html"
+  },
+  {
+    "lang": "ja",
+    "date": "2016.11",
+    "category": "寄稿",
+    "text": "早稲田大学 SGU 海外派遣 Los Angels, US",
+    "url": "http://www.sgu-ictrobotics.sci.waseda.ac.jp/activities/student/n-iwamoto_2/"
+  },
+  {
+    "lang": "ja",
+    "date": "2016.06",
+    "category": "ワークショップ",
+    "text": "「ステンドグラスでつくる,キャンドルホルダーワークショップ」",
+    "url": "http://fablabsendai-flat.com/2016/07/09/report_caapws_vol01/"
+  },
+  {
+    "lang": "ja",
+    "date": "2015.07",
+    "category": "寄稿",
+    "text": "「【インターンレポート】毎日食べて飲んで作った FabLab SENDAIで過ごす日々は大人の青春で溢れていた」",
+    "url": "http://fablabsendai-flat.com/2015/07/04/intern_report20150703/"
+  },
+  {
+    "lang": "ja",
+    "date": "2015.02",
+    "category": "寄稿",
+    "text": "早稲田大学 SGU 海外派遣 Newcastle, UK",
+    "url": "http://www.sgu-ictrobotics.sci.waseda.ac.jp/activities/student/n-iwamoto/"
+  },
+  {
+    "lang": "ja",
+    "date": "2015.01",
+    "category": "出演",
+    "text": "テクネ~映像の教室 プログラミング",
+    "url": "https://youtu.be/aPcoKc-2ge4"
+  },
+  {
+    "lang": "ja",
+    "date": "2014.12",
+    "category": "事業",
+    "text": "フロンティアメイカーズ育成事業 「立体ステンドグラス作成支援ツールの開発」",
+    "url": "http://www.mlab.phys.waseda.ac.jp/%E7%AB%8B%E4%BD%93%E3%82%B9%E3%83%86%E3%83%B3%E3%83%89%E3%82%B0%E3%83%A9%E3%82%B9%E4%BD%9C%E6%88%90%E6%94%AF%E6%8F%B4%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AE%E9%96%8B%E7%99%BA/"
+  },
+  {
+    "lang": "ja",
+    "date": "2014.04",
+    "category": "ワークショップ",
+    "text": "インタラクティブ・クリエーション・キャンプ 「Cloud Sending」",
+    "url": "http://www.cbc-net.com/topic/2014/04/ice-icc-report/"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "3D LIVE MAKER",
+    "meta": "Mate20 Pro · 2018",
+    "image": "img/works/3dlivemaker.png",
+    "url": "projects/3dlivemaker/"
+  },
+  {
+    "title": "ANYFACE",
+    "meta": "Honor V10 · 2017",
+    "image": "img/works/honor_v10.jpg",
+    "url": "projects/anyface/"
+  },
+  {
+    "title": "DIGITAL DANCE GROUP",
+    "meta": "2014 – 2017",
+    "image": "img/works/digitaldancegroup.jpg",
+    "url": "projects/digitaldancegroup/"
+  }
+]
