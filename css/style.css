@@ -706,3 +706,43 @@ body.lang-ja .en-only { display: none !important; }
     .article .gallery,
     .article .video-grid { grid-template-columns: 1fr; }
 }
+
+/* Native portrait video grid (e.g. phone interaction clips) */
+.article .media-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin: 32px 0;
+    background: #000;
+    padding: 24px;
+    border-radius: var(--radius);
+}
+.article .media-grid figure { margin: 0; }
+.article .media-grid video {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    background: #000;
+}
+.article .media-grid figcaption {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.72);
+    margin-top: 10px;
+    text-align: center;
+}
+@media (max-width: 640px) {
+    .article .media-grid {
+        grid-template-columns: 1fr;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* X / Twitter embed */
+.article .tweet-embed {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+}
+.article .tweet-embed .twitter-tweet { margin: 0 auto; }
