@@ -101,11 +101,28 @@
         if (!box) return;
         box.innerHTML = items.map(function (p) {
             var meta = p.meta ? '<span class="work-meta">' + esc(p.meta) + "</span>" : "";
+            var hover = p.hover
+                ? '<img class="work-hover" alt="" loading="lazy" data-hover="' + esc(p.hover) + '">'
+                : "";
             return '<a class="work-card" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
                 '<div class="work-bg" style="background-image:url(\'' + esc(p.image) + '\')"></div>' +
+                hover +
                 '<div class="work-overlay"><h3>' + esc(p.title) + "</h3>" + meta + "</div>" +
             "</a>";
         }).join("");
+
+        // Lazy-load hover clips (e.g. animated GIF teasers) on first hover/focus
+        box.querySelectorAll(".work-hover").forEach(function (img) {
+            var card = img.closest(".work-card");
+            if (!card) return;
+            var load = function () {
+                if (!img.getAttribute("src")) {
+                    img.src = img.getAttribute("data-hover");
+                }
+            };
+            card.addEventListener("mouseenter", load);
+            card.addEventListener("focusin", load);
+        });
     }
 
     loadJSON("data/works.json")

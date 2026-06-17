@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Human | Naoya Iwamoto</title>
+    <meta name="description" content="Digital Human (2019–2024) — an animatable digital-human modeling framework built from multi-view Light Stage scans, delivering game-engine-ready, fully mesh-based blendshape facial assets with real-time rendering.">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="../../index.html" class="nav-brand">← Naoya&nbsp;Iwamoto</a>
+            <ul class="nav-links">
+                <li><a href="../../index.html#works">Works</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-hero">
+            <p class="article-eyebrow">Work · Animatable Facial Asset · 2019 – 2024</p>
+            <h1>Digital Human</h1>
+            <p class="article-byline">An animatable digital-human modeling framework built from multi-view Light Stage scans — delivering game-engine-ready, fully mesh-based blendshape facial assets that drive in real time.</p>
+        </header>
+
+        <div class="article-body">
+            <p>From 2019 to 2024 we developed an <strong>animatable digital-human modeling framework</strong> that reconstructs high-fidelity faces from multi-view scans captured with a Light Stage setup. The goal was a production pipeline that turns a raw scan into a fully riggable, animation-ready facial asset.</p>
+
+            <p>At <strong>Visual Computing (VC)</strong> and <strong>MIRU</strong> — leading venues in the CG and CV communities in Japan — we demonstrated live <strong>facial animation driven by a smartphone capture</strong>, showing the asset being puppeteered in real time directly from a phone.</p>
+
+            <figure>
+                <img src="../../img/works/digitalhuman/facial-asset-expressions.png" alt="A scanned face transitioning into a rendered digital human, shown across four facial expressions" loading="lazy">
+                <figcaption>From scan to render — a personalized facial asset performing a range of expressions.</figcaption>
+            </figure>
+
+            <h2>Game-engine compatibility</h2>
+            <p>Our key contribution was <strong>high compatibility with real-time game engines such as Unity and Unreal Engine</strong>. Because the assets are <strong>fully mesh-based and driven by blendshapes</strong> — rather than neural or volumetric representations — they slot directly into existing engine pipelines and run efficiently on commodity hardware.</p>
+
+            <h2>Pipeline</h2>
+            <p>The framework covers the full path from scan to a deployable, animatable asset:</p>
+            <ul>
+                <li><strong>Retopology</strong> — converting dense scan geometry into a clean, animation-friendly mesh.</li>
+                <li><strong>Texture optimization</strong> — building consistent, efficient texture maps for real-time use.</li>
+                <li><strong>Eye alignment</strong> — accurately fitting and positioning the eyes within the face.</li>
+                <li><strong>Hair growing</strong> — generating strand-based hair on the reconstructed scalp.</li>
+                <li><strong>Personalized blendshapes</strong> — deriving an identity-specific expression rig.</li>
+                <li><strong>Dynamic texture</strong> — expression-dependent texture detail for added realism.</li>
+                <li><strong>Facial retargeting</strong> — driving the asset from captured performance, with real-time rendering.</li>
+                <li><strong>Motion generation</strong> — synthesizing human conversational gestures to animate the digital human.</li>
+            </ul>
+
+            <h2>From research to service</h2>
+            <p>The collected animatable facial assets were transferred into facial-modeling tools, and the pipeline was offered as an <strong>automatic facial-modeling service that turns a scan into a finished asset</strong>, provided to facial-scanning company <a href="https://www.crescentinc.co.jp/news/12" target="_blank" rel="noopener">Crescent Inc.</a>, which launched a Digital Human creation service based on it.</p>
+
+            <h2>Demonstrations</h2>
+            <div class="gallery">
+                <img src="../../img/works/digitalhuman/realtime-demo.jpg" alt="Real-time facial animation demo: a digital face on a monitor driven live from a smartphone capture" loading="lazy">
+                <img src="../../img/works/digitalhuman/exhibition-poster.jpg" alt="Digital Human Lab technical breakdown poster on the exhibition wall" loading="lazy">
+                <img src="../../img/works/digitalhuman/exhibition-booth.jpg" alt="HUAWEI Digital Human Lab booth at the exhibition" loading="lazy">
+            </div>
+
+            <h2>References</h2>
+            <p>Related publications from this project (2019 – 2024):</p>
+            <ul class="ref-list">
+                <li>Haiyang Liu, Zihao Zhu, Giorgio Becherini, Yichen Peng, Mingyang Su, You Zhou, <strong>Naoya Iwamoto</strong>, Bo Zheng, Michael J. Black, <em>“EMAGE: Towards Unified Holistic Co-Speech Gesture Generation via Expressive Masked Audio Gesture Modeling.”</em> CVPR 2024, 2024.01. [ <a href="https://pantomatrix.github.io/EMAGE/" target="_blank" rel="noopener">Project Page</a> ]</li>
+                <li>Yusuke Takimoto, Hikari Takehara, Hiroyuki Sato, Zihao Zhu, Bo Zheng, <em>“Dr.Hair: Reconstructing Scalp-Connected Hair Strands without Pre-training via Differentiable Rendering of Line Segments.”</em> CVPR 2024 (Highlight). [ <a href="https://dr-hair.github.io/Dr-Hair/" target="_blank" rel="noopener">Project Page</a> ]</li>
+                <li>Takumi Kitamura, <strong>Naoya Iwamoto</strong>, Diego Thomas, Hiroshi Kawasaki, <em>“Two Step Approach for Animatable Avatar.”</em> CGI 2023, 2023.09.</li>
+                <li>Haiyang Liu, Zihao Zhu, <strong>Naoya Iwamoto</strong>, Yichen Peng, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng, <em>“BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis.”</em> ECCV 2022, 2022.10. [ <a href="https://pantomatrix.github.io/BEAT/" target="_blank" rel="noopener">Project Page</a> ]</li>
+                <li>Haiyang Liu, <strong>Naoya Iwamoto</strong>, Zihao Zhu, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng, <em>“DisCo: Disentangled Implicit Content and Rhythm Learning for Diverse Co-Speech Gesture Synthesis.”</em> ACM Multimedia 2022, 2022.10. [ <a href="https://pantomatrix.github.io/DisCo/" target="_blank" rel="noopener">Project Page</a> ]</li>
+                <li>Takumi Kitamura, Diego Thomas, <strong>Naoya Iwamoto</strong>, Hiroshi Kawasaki, <em>“Real-time Animatable Avatars with a Rigged Human Outer-shell.”</em> MIRU 2022 (short oral), 2022.06.</li>
+                <li>Yusuke Takimoto, Hiroyuki Sato, Hikari Takehara, Keishiro Uragaki, Takehiro Tawara, Xiao Liang, Kentaro Oku, Wataru Kishimoto, Bo Zheng, <em>“Dressi: A Hardware-Agnostic Differentiable Renderer with Reactive Shader Packing and Soft Rasterization.”</em> Computer Graphics Forum (Eurographics 2022), 2022. [ <a href="https://arxiv.org/abs/2204.01386" target="_blank" rel="noopener">Paper</a> ]</li>
+                <li>Haiyang Liu, Zihao Zhu, <strong>Naoya Iwamoto</strong>, Yichen Peng, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng, <em>“BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis.”</em> arXiv, 2022.03. [ <a href="https://pantomatrix.github.io/BEAT/" target="_blank" rel="noopener">Project Page</a> ]</li>
+            </ul>
+
+            <a class="article-back" href="../../index.html#works">← Back to Portfolio</a>
+        </div>
+    </article>
+</body>
+</html>

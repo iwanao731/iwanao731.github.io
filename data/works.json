@@ -6,6 +6,19 @@
     "url": "projects/hanhan/"
   },
   {
+    "title": "DIGITAL HUMAN",
+    "meta": "Animatable Facial Asset · 2019 – 2024",
+    "image": "img/works/digitalhuman/facial-asset-expressions.png",
+    "url": "projects/digitalhuman/"
+  },
+  {
+    "title": "LYSA",
+    "meta": "Huawei's First Virtual Human · 2019",
+    "image": "img/works/lysa.jpg",
+    "hover": "img/works/lysa.gif",
+    "url": "projects/lysa/"
+  },
+  {
     "title": "3D LIVE MAKER",
     "meta": "Mate20 Pro · 2018",
     "image": "img/works/3dlivemaker.png",
