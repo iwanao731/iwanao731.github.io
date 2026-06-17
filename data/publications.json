@@ -3,7 +3,10 @@
     "lang": "en",
     "authors": "Xun Su, Takumi Kitamura, Hikari Takehara, Naoya Iwamoto",
     "title": "ShaveDog: High-Fidelity Dog Modeling via Synthetic Fur-Removal and Geometry-Aware Optimization",
-    "venue": "CVPR 2026 Workshop (CV4Animals)"
+    "venue": "CVPR 2026 Workshop (CV4Animals)",
+    "links": [
+      { "label": "Video", "url": "https://youtu.be/-n800WXdphA" }
+    ]
   },
   {
     "lang": "en",
